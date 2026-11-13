@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "name": "N_Thimmapuram_Drainage_Network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "drainage-main-ugd",
+      "properties": {
+        "name": "Main Underground Drainage (UGD) Line",
+        "length_rmt": 285.35,
+        "type": "Underground Covered RCC Pipe / Masonry",
+        "chambers": 12,
+        "gradient": "North-to-South Gravity Flow",
+        "outfall": "Community Soak Pit (End of Village)",
+        "connected_households": 41
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.8693,
+            15.0034
+          ],
+          [
+            77.86938,
+            15.0032
+          ],
+          [
+            77.86946,
+            15.0029
+          ],
+          [
+            77.86952,
+            15.00255
+          ],
+          [
+            77.86962,
+            15.00215
+          ],
+          [
+            77.86975,
+            15.00165
+          ],
+          [
+            77.86985,
+            15.0014
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "drainage-branch-1",
+      "properties": {
+        "name": "Lane Collector Drain 1",
+        "length_rmt": 31.0,
+        "type": "Covered RCC Drain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86975,
+            15.00285
+          ],
+          [
+            77.86946,
+            15.0029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "drainage-branch-2",
+      "properties": {
+        "name": "Lane Collector Drain 2",
+        "length_rmt": 31.0,
+        "type": "Covered RCC Drain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86915,
+            15.0027
+          ],
+          [
+            77.86952,
+            15.00255
+          ]
+        ]
+      }
+    }
+  ]
+}

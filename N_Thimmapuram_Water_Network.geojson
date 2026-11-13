@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "name": "N_Thimmapuram_Water_Distribution_Grid",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "water-main-spine",
+      "properties": {
+        "name": "Main Water Distribution Spine",
+        "length_rmt": 245.0,
+        "diameter_mm": 90,
+        "material": "HDPE / PVC",
+        "inlet_1": "Gandikota CPWS (5,000 L/d)",
+        "inlet_2": "Chowdamma Borewell (7,500 L/d)",
+        "supply_lpcd": 86.21
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86882,
+            15.00405
+          ],
+          [
+            77.86915,
+            15.0036
+          ],
+          [
+            77.86935,
+            15.0033
+          ],
+          [
+            77.86948,
+            15.00295
+          ],
+          [
+            77.86955,
+            15.0026
+          ],
+          [
+            77.86968,
+            15.0022
+          ],
+          [
+            77.8698,
+            15.00175
+          ],
+          [
+            77.87005,
+            15.00175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water-branch-1",
+      "properties": {
+        "name": "Internal Distribution Branch 1",
+        "length_rmt": 41.5,
+        "diameter_mm": 63,
+        "material": "HDPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86948,
+            15.00295
+          ],
+          [
+            77.86975,
+            15.0029
+          ],
+          [
+            77.86985,
+            15.00285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water-branch-2",
+      "properties": {
+        "name": "Internal Distribution Branch 2",
+        "length_rmt": 41.5,
+        "diameter_mm": 63,
+        "material": "HDPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86948,
+            15.00295
+          ],
+          [
+            77.86925,
+            15.00298
+          ],
+          [
+            77.8691,
+            15.00305
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water-branch-3",
+      "properties": {
+        "name": "Internal Distribution Branch 3",
+        "length_rmt": 41.5,
+        "diameter_mm": 63,
+        "material": "HDPE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.86935,
+            15.0033
+          ],
+          [
+            77.8696,
+            15.00325
+          ]
+        ]
+      }
+    }
+  ]
+}
