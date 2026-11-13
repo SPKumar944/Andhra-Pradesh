@@ -1,0 +1,2820 @@
+{
+  "type": "FeatureCollection",
+  "name": "N_Thimmapuram_Builtup_Structures",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "Structure_ID": 1,
+        "Plinth_Area_GIS_Sqm": 30.78,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 60,
+        "Owner_Name": null,
+        "Father_Husband_Name": "OPEN WELL",
+        "Property_Type": "NON RCC",
+        "Usage": "GOVT",
+        "Registered_Plinth_Area": 30.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692516,
+              15.0027487
+            ],
+            [
+              77.8692566,
+              15.0027482
+            ],
+            [
+              77.8692615,
+              15.0027469
+            ],
+            [
+              77.8692661,
+              15.0027447
+            ],
+            [
+              77.8692702,
+              15.0027418
+            ],
+            [
+              77.8692738,
+              15.0027383
+            ],
+            [
+              77.8692766,
+              15.0027342
+            ],
+            [
+              77.8692787,
+              15.0027297
+            ],
+            [
+              77.86928,
+              15.0027249
+            ],
+            [
+              77.8692803,
+              15.00272
+            ],
+            [
+              77.8692798,
+              15.0027151
+            ],
+            [
+              77.8692785,
+              15.0027103
+            ],
+            [
+              77.8692763,
+              15.0027059
+            ],
+            [
+              77.8692733,
+              15.0027019
+            ],
+            [
+              77.8692696,
+              15.0026984
+            ],
+            [
+              77.8692654,
+              15.0026956
+            ],
+            [
+              77.8692608,
+              15.0026936
+            ],
+            [
+              77.8692559,
+              15.0026924
+            ],
+            [
+              77.8692508,
+              15.002692
+            ],
+            [
+              77.8692458,
+              15.0026925
+            ],
+            [
+              77.8692409,
+              15.0026939
+            ],
+            [
+              77.8692363,
+              15.002696
+            ],
+            [
+              77.8692322,
+              15.0026989
+            ],
+            [
+              77.8692286,
+              15.0027024
+            ],
+            [
+              77.8692258,
+              15.0027065
+            ],
+            [
+              77.8692237,
+              15.002711
+            ],
+            [
+              77.8692224,
+              15.0027158
+            ],
+            [
+              77.869222,
+              15.0027207
+            ],
+            [
+              77.8692226,
+              15.0027256
+            ],
+            [
+              77.8692239,
+              15.0027304
+            ],
+            [
+              77.8692261,
+              15.0027348
+            ],
+            [
+              77.8692291,
+              15.0027389
+            ],
+            [
+              77.8692327,
+              15.0027423
+            ],
+            [
+              77.8692369,
+              15.0027451
+            ],
+            [
+              77.8692416,
+              15.0027471
+            ],
+            [
+              77.8692465,
+              15.0027483
+            ],
+            [
+              77.8692516,
+              15.0027487
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "Structure_ID": 2,
+        "Plinth_Area_GIS_Sqm": 15.54,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 27,
+        "Owner_Name": "CHADUVULA",
+        "Father_Husband_Name": "CHADUVULA NARAYANA REDDY\n",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 15.56
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8696704,
+              15.0030373
+            ],
+            [
+              77.869662,
+              15.0030047
+            ],
+            [
+              77.8696997,
+              15.0029955
+            ],
+            [
+              77.869708,
+              15.0030281
+            ],
+            [
+              77.8696704,
+              15.0030373
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "Structure_ID": 3,
+        "Plinth_Area_GIS_Sqm": 11.29,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 73,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "MASULA SURYANARAYANA",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 25.02
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8694391,
+              15.0028305
+            ],
+            [
+              77.8694331,
+              15.0028039
+            ],
+            [
+              77.8694678,
+              15.0027966
+            ],
+            [
+              77.8694735,
+              15.0028222
+            ],
+            [
+              77.8694391,
+              15.0028305
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "Structure_ID": 4,
+        "Plinth_Area_GIS_Sqm": 35.93,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 75,
+        "Owner_Name": "SAREDDY",
+        "Father_Husband_Name": "SAREDDY PEDDIREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 230.49
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8696413,
+              15.0029635
+            ],
+            [
+              77.8696307,
+              15.0029299
+            ],
+            [
+              77.8697127,
+              15.0029054
+            ],
+            [
+              77.8697233,
+              15.002939
+            ],
+            [
+              77.8696413,
+              15.0029635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "Structure_ID": 5,
+        "Plinth_Area_GIS_Sqm": 194.5,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 75,
+        "Owner_Name": "SAREDDY",
+        "Father_Husband_Name": "SAREDDY PEDDIREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 230.49
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869514,
+              15.002814
+            ],
+            [
+              77.8695279,
+              15.0028599
+            ],
+            [
+              77.8695437,
+              15.0029097
+            ],
+            [
+              77.8695701,
+              15.0029039
+            ],
+            [
+              77.8695798,
+              15.0029349
+            ],
+            [
+              77.8696694,
+              15.0029115
+            ],
+            [
+              77.8696268,
+              15.0027723
+            ],
+            [
+              77.8695119,
+              15.0028066
+            ],
+            [
+              77.869514,
+              15.002814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "Structure_ID": 6,
+        "Plinth_Area_GIS_Sqm": 91.23,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 76,
+        "Owner_Name": "KUMMETHA",
+        "Father_Husband_Name": "LATE CHINNA OBIREDDY",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 91.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8695893,
+              15.0029803
+            ],
+            [
+              77.8695989,
+              15.0029782
+            ],
+            [
+              77.8695882,
+              15.0029348
+            ],
+            [
+              77.869578,
+              15.0029374
+            ],
+            [
+              77.8695699,
+              15.0029081
+            ],
+            [
+              77.8694741,
+              15.002933
+            ],
+            [
+              77.869493,
+              15.0030014
+            ],
+            [
+              77.8695893,
+              15.0029803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "Structure_ID": 7,
+        "Plinth_Area_GIS_Sqm": 35.29,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 61,
+        "Owner_Name": "BOGIREDDY",
+        "Father_Husband_Name": "B.NAGI REDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692973,
+              15.0028082
+            ],
+            [
+              77.8693296,
+              15.002801
+            ],
+            [
+              77.8693499,
+              15.0028881
+            ],
+            [
+              77.8693175,
+              15.0028952
+            ],
+            [
+              77.8692973,
+              15.0028082
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "Structure_ID": 8,
+        "Plinth_Area_GIS_Sqm": 88.0,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 61,
+        "Owner_Name": "BOGIREDDY",
+        "Father_Husband_Name": "B.NAGI REDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693098,
+              15.0028761
+            ],
+            [
+              77.8692065,
+              15.0028988
+            ],
+            [
+              77.8691907,
+              15.0028308
+            ],
+            [
+              77.869294,
+              15.0028081
+            ],
+            [
+              77.8693098,
+              15.0028761
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "Structure_ID": 9,
+        "Plinth_Area_GIS_Sqm": 27.02,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 37,
+        "Owner_Name": "KUMMETHA",
+        "Father_Husband_Name": "KUMMETHA CHINNA OBIREDDY",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 27
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693875,
+              15.0028843
+            ],
+            [
+              77.8693939,
+              15.0029188
+            ],
+            [
+              77.8693297,
+              15.0029299
+            ],
+            [
+              77.869323,
+              15.0028963
+            ],
+            [
+              77.8693875,
+              15.0028843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "Structure_ID": 10,
+        "Plinth_Area_GIS_Sqm": 31.24,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 36,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T VENKATA RAMANA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 54.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693391,
+              15.0030251
+            ],
+            [
+              77.8693484,
+              15.0030759
+            ],
+            [
+              77.8692984,
+              15.0030846
+            ],
+            [
+              77.8692891,
+              15.0030338
+            ],
+            [
+              77.8693391,
+              15.0030251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "Structure_ID": 11,
+        "Plinth_Area_GIS_Sqm": 22.99,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 36,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T VENKATA RAMANA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 54.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692366,
+              15.0030999
+            ],
+            [
+              77.8692272,
+              15.0030486
+            ],
+            [
+              77.8692636,
+              15.0030422
+            ],
+            [
+              77.869273,
+              15.0030936
+            ],
+            [
+              77.8692366,
+              15.0030999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "Structure_ID": 12,
+        "Plinth_Area_GIS_Sqm": 6.84,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 32,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 52.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8694483,
+              15.0030868
+            ],
+            [
+              77.8694524,
+              15.0031065
+            ],
+            [
+              77.8694244,
+              15.003112
+            ],
+            [
+              77.8694203,
+              15.0030923
+            ],
+            [
+              77.8694483,
+              15.0030868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "Structure_ID": 13,
+        "Plinth_Area_GIS_Sqm": 47.46,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 31,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI NARASIMHULU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 47.43
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693852,
+              15.0031759
+            ],
+            [
+              77.8694352,
+              15.0031651
+            ],
+            [
+              77.8694539,
+              15.0032414
+            ],
+            [
+              77.8694056,
+              15.0032528
+            ],
+            [
+              77.8693852,
+              15.0031759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "Structure_ID": 14,
+        "Plinth_Area_GIS_Sqm": 68.93,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 29,
+        "Owner_Name": "NAGURU",
+        "Father_Husband_Name": "NAGURU SIVAREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 68.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8695285,
+              15.003208
+            ],
+            [
+              77.8694973,
+              15.0032146
+            ],
+            [
+              77.8695128,
+              15.0032978
+            ],
+            [
+              77.8695193,
+              15.0033313
+            ],
+            [
+              77.8695588,
+              15.0033241
+            ],
+            [
+              77.8695523,
+              15.0032905
+            ],
+            [
+              77.869569,
+              15.0032875
+            ],
+            [
+              77.8695561,
+              15.0032208
+            ],
+            [
+              77.8695319,
+              15.0032253
+            ],
+            [
+              77.8695285,
+              15.003208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "Structure_ID": 15,
+        "Plinth_Area_GIS_Sqm": 45.86,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 31,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI NARASIMHULU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 47.43
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693842,
+              15.0031762
+            ],
+            [
+              77.8693684,
+              15.0031031
+            ],
+            [
+              77.8694174,
+              15.0030918
+            ],
+            [
+              77.8694352,
+              15.0031651
+            ],
+            [
+              77.8693842,
+              15.0031762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "Structure_ID": 16,
+        "Plinth_Area_GIS_Sqm": 37.7,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 15,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "V NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 37.73
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691698,
+              15.0032688
+            ],
+            [
+              77.8691805,
+              15.003308
+            ],
+            [
+              77.8691051,
+              15.0033274
+            ],
+            [
+              77.8690944,
+              15.0032882
+            ],
+            [
+              77.8691698,
+              15.0032688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "Structure_ID": 17,
+        "Plinth_Area_GIS_Sqm": 20.43,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 16,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 20.44
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690767,
+              15.0032871
+            ],
+            [
+              77.8690703,
+              15.0032634
+            ],
+            [
+              77.8691392,
+              15.0032465
+            ],
+            [
+              77.8691455,
+              15.0032694
+            ],
+            [
+              77.8690767,
+              15.0032871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "Structure_ID": 18,
+        "Plinth_Area_GIS_Sqm": 14.56,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 17,
+        "Owner_Name": "NALLAPPAGARI",
+        "Father_Husband_Name": "VENKATA RAMANA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 14.57
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691693,
+              15.0031963
+            ],
+            [
+              77.8691973,
+              15.0031891
+            ],
+            [
+              77.8692091,
+              15.00323
+            ],
+            [
+              77.8691802,
+              15.003236
+            ],
+            [
+              77.8691693,
+              15.0031963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "Structure_ID": 19,
+        "Plinth_Area_GIS_Sqm": 17.99,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 18,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI VENKATESU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 68.37
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691391,
+              15.0031661
+            ],
+            [
+              77.8691904,
+              15.0031529
+            ],
+            [
+              77.8691979,
+              15.0031804
+            ],
+            [
+              77.8691466,
+              15.0031936
+            ],
+            [
+              77.8691391,
+              15.0031661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "Structure_ID": 20,
+        "Plinth_Area_GIS_Sqm": 50.28,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 18,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI VENKATESU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 68.37
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691595,
+              15.0030498
+            ],
+            [
+              77.8691802,
+              15.0031283
+            ],
+            [
+              77.8691296,
+              15.0031387
+            ],
+            [
+              77.8691085,
+              15.0030593
+            ],
+            [
+              77.8691595,
+              15.0030498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "Structure_ID": 21,
+        "Plinth_Area_GIS_Sqm": 32.62,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 59,
+        "Owner_Name": null,
+        "Father_Husband_Name": "SCHOOL",
+        "Property_Type": "RCC",
+        "Usage": "GOVT",
+        "Registered_Plinth_Area": 32.61
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690908,
+              15.0031107
+            ],
+            [
+              77.8691011,
+              15.0031457
+            ],
+            [
+              77.8690288,
+              15.0031657
+            ],
+            [
+              77.8690186,
+              15.0031306
+            ],
+            [
+              77.8690908,
+              15.0031107
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "Structure_ID": 22,
+        "Plinth_Area_GIS_Sqm": 28.06,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 39,
+        "Owner_Name": null,
+        "Father_Husband_Name": "SRI KRISHNA TEMPLE",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 72.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690377,
+              15.0030391
+            ],
+            [
+              77.8690302,
+              15.0029992
+            ],
+            [
+              77.8690873,
+              15.0029891
+            ],
+            [
+              77.8690948,
+              15.003029
+            ],
+            [
+              77.8690377,
+              15.0030391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "Structure_ID": 23,
+        "Plinth_Area_GIS_Sqm": 44.03,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 39,
+        "Owner_Name": null,
+        "Father_Husband_Name": "SRI KRISHNA TEMPLE",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 72.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690994,
+              15.0030347
+            ],
+            [
+              77.8690891,
+              15.0029803
+            ],
+            [
+              77.8691548,
+              15.0029686
+            ],
+            [
+              77.869165,
+              15.0030231
+            ],
+            [
+              77.8690994,
+              15.0030347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "Structure_ID": 24,
+        "Plinth_Area_GIS_Sqm": 10.28,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 42,
+        "Owner_Name": "NAGURU",
+        "Father_Husband_Name": "N RANGAREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 56.68
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690707,
+              15.0028458
+            ],
+            [
+              77.8690673,
+              15.0028311
+            ],
+            [
+              77.869123,
+              15.0028191
+            ],
+            [
+              77.8691264,
+              15.0028339
+            ],
+            [
+              77.8690707,
+              15.0028458
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "Structure_ID": 25,
+        "Plinth_Area_GIS_Sqm": 46.39,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 42,
+        "Owner_Name": "NAGURU",
+        "Father_Husband_Name": "N RANGAREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 56.68
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690894,
+              15.0029166
+            ],
+            [
+              77.8690712,
+              15.0028495
+            ],
+            [
+              77.8691268,
+              15.0028369
+            ],
+            [
+              77.8691431,
+              15.0029044
+            ],
+            [
+              77.8690894,
+              15.0029166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "Structure_ID": 26,
+        "Plinth_Area_GIS_Sqm": 88.36,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 41,
+        "Owner_Name": "SIDDAVATAM",
+        "Father_Husband_Name": "LATE SIDDAVATAM OBIREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 88.42
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690578,
+              15.0028701
+            ],
+            [
+              77.8690698,
+              15.0029244
+            ],
+            [
+              77.8689394,
+              15.0029518
+            ],
+            [
+              77.8689273,
+              15.0028975
+            ],
+            [
+              77.8690578,
+              15.0028701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "Structure_ID": 27,
+        "Plinth_Area_GIS_Sqm": 13.68,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 73,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "MASULA SURYANARAYANA",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 25.02
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869421,
+              15.0027872
+            ],
+            [
+              77.869412,
+              15.0027553
+            ],
+            [
+              77.8694455,
+              15.0027464
+            ],
+            [
+              77.8694545,
+              15.0027782
+            ],
+            [
+              77.869421,
+              15.0027872
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "Structure_ID": 28,
+        "Plinth_Area_GIS_Sqm": 16.63,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 85,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI PEDDA NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 27.21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8697566,
+              15.0029215
+            ],
+            [
+              77.8697477,
+              15.0028896
+            ],
+            [
+              77.8697884,
+              15.0028788
+            ],
+            [
+              77.8697974,
+              15.0029106
+            ],
+            [
+              77.8697566,
+              15.0029215
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "Structure_ID": 29,
+        "Plinth_Area_GIS_Sqm": 10.58,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 85,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI PEDDA NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 27.21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869768,
+              15.002848
+            ],
+            [
+              77.8697657,
+              15.0028396
+            ],
+            [
+              77.8697606,
+              15.0028206
+            ],
+            [
+              77.8697302,
+              15.0028287
+            ],
+            [
+              77.8697379,
+              15.002856
+            ],
+            [
+              77.869768,
+              15.002848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "Structure_ID": 30,
+        "Plinth_Area_GIS_Sqm": 16.93,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 84,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "MASULA YALLAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 42.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8698061,
+              15.0028394
+            ],
+            [
+              77.8697958,
+              15.0028027
+            ],
+            [
+              77.8698318,
+              15.0027931
+            ],
+            [
+              77.8698421,
+              15.0028298
+            ],
+            [
+              77.8698061,
+              15.0028394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "Structure_ID": 31,
+        "Plinth_Area_GIS_Sqm": 23.2,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 87,
+        "Owner_Name": "TALARI ",
+        "Father_Husband_Name": "PEDDA NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 23.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8698789,
+              15.0027969
+            ],
+            [
+              77.8698697,
+              15.0027642
+            ],
+            [
+              77.869925,
+              15.0027494
+            ],
+            [
+              77.8699343,
+              15.0027821
+            ],
+            [
+              77.8698789,
+              15.0027969
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "Structure_ID": 32,
+        "Plinth_Area_GIS_Sqm": 18.81,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 84,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "MASULA YALLAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 42.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8697312,
+              15.002737
+            ],
+            [
+              77.8697606,
+              15.0027286
+            ],
+            [
+              77.8697755,
+              15.0027781
+            ],
+            [
+              77.8697461,
+              15.0027864
+            ],
+            [
+              77.8697312,
+              15.002737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "Structure_ID": 33,
+        "Plinth_Area_GIS_Sqm": 46.81,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 68,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI CHENNAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 65.87
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869685,
+              15.0027253
+            ],
+            [
+              77.8696561,
+              15.0026433
+            ],
+            [
+              77.8696989,
+              15.002629
+            ],
+            [
+              77.8697279,
+              15.002711
+            ],
+            [
+              77.869685,
+              15.0027253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "Structure_ID": 34,
+        "Plinth_Area_GIS_Sqm": 19.27,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 67,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI AMARNATH",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 19.29
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869654,
+              15.0027362
+            ],
+            [
+              77.8696369,
+              15.0026876
+            ],
+            [
+              77.8696667,
+              15.0026777
+            ],
+            [
+              77.8696838,
+              15.0027262
+            ],
+            [
+              77.869654,
+              15.0027362
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "Structure_ID": 35,
+        "Plinth_Area_GIS_Sqm": 19.0,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 68,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI CHENNAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 65.87
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8696467,
+              15.002628
+            ],
+            [
+              77.8696354,
+              15.0025975
+            ],
+            [
+              77.8696817,
+              15.0025814
+            ],
+            [
+              77.869693,
+              15.0026119
+            ],
+            [
+              77.8696467,
+              15.002628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "Structure_ID": 36,
+        "Plinth_Area_GIS_Sqm": 19.03,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 66,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI PEDDANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 19.06
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8696232,
+              15.0026617
+            ],
+            [
+              77.8696063,
+              15.0026103
+            ],
+            [
+              77.8696345,
+              15.0026016
+            ],
+            [
+              77.8696514,
+              15.002653
+            ],
+            [
+              77.8696232,
+              15.0026617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "Structure_ID": 37,
+        "Plinth_Area_GIS_Sqm": 60.84,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 64,
+        "Owner_Name": "KORNEPALLI ",
+        "Father_Husband_Name": "KORNEPALLI SANJEEVARAYUDU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 60.85
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8694581,
+              15.0027166
+            ],
+            [
+              77.8694417,
+              15.0026601
+            ],
+            [
+              77.8695254,
+              15.0026372
+            ],
+            [
+              77.8695418,
+              15.0026937
+            ],
+            [
+              77.8694581,
+              15.0027166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "Structure_ID": 38,
+        "Plinth_Area_GIS_Sqm": 49.82,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 63,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "M YALLAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 49.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8694375,
+              15.0026591
+            ],
+            [
+              77.8694572,
+              15.0026537
+            ],
+            [
+              77.8694495,
+              15.0026272
+            ],
+            [
+              77.8694298,
+              15.0026326
+            ],
+            [
+              77.8693883,
+              15.002644
+            ],
+            [
+              77.8694117,
+              15.0027247
+            ],
+            [
+              77.8694532,
+              15.0027133
+            ],
+            [
+              77.8694375,
+              15.0026591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "Structure_ID": 39,
+        "Plinth_Area_GIS_Sqm": 31.59,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 62,
+        "Owner_Name": "BOGIREDDY",
+        "Father_Husband_Name": "B GOPAL REDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 31.59
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693293,
+              15.0026543
+            ],
+            [
+              77.8693856,
+              15.0026417
+            ],
+            [
+              77.8693962,
+              15.0026864
+            ],
+            [
+              77.8693399,
+              15.002699
+            ],
+            [
+              77.8693293,
+              15.0026543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "Structure_ID": 40,
+        "Plinth_Area_GIS_Sqm": 53.49,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 44,
+        "Owner_Name": "SIDDAVATAM",
+        "Father_Husband_Name": "SIDDAVATAM CHINNA SIVARAMIREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 53.49
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8689369,
+              15.0026691
+            ],
+            [
+              77.8689554,
+              15.0027561
+            ],
+            [
+              77.8689059,
+              15.002766
+            ],
+            [
+              77.8688874,
+              15.0026791
+            ],
+            [
+              77.8689369,
+              15.0026691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "Structure_ID": 41,
+        "Plinth_Area_GIS_Sqm": 61.6,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 45,
+        "Owner_Name": "SIDDAVATAM",
+        "Father_Husband_Name": "LATE SIDDAVATAM OBIREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 61.63
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8689984,
+              15.0026571
+            ],
+            [
+              77.8690165,
+              15.0027423
+            ],
+            [
+              77.8689584,
+              15.002754
+            ],
+            [
+              77.8689402,
+              15.0026687
+            ],
+            [
+              77.8689984,
+              15.0026571
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "Structure_ID": 42,
+        "Plinth_Area_GIS_Sqm": 92.33,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 57,
+        "Owner_Name": "SIDDAVATAM",
+        "Father_Husband_Name": "SIDDAVATAM PEDDI REDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 92.34
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8689725,
+              15.0025705
+            ],
+            [
+              77.8689878,
+              15.0026423
+            ],
+            [
+              77.8688844,
+              15.0026631
+            ],
+            [
+              77.8688691,
+              15.0025912
+            ],
+            [
+              77.8689725,
+              15.0025705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "Structure_ID": 43,
+        "Plinth_Area_GIS_Sqm": 159.68,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 46,
+        "Owner_Name": "VARAGOLLA",
+        "Father_Husband_Name": "V KAMBAGIRI",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 159.78
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690296,
+              15.0027441
+            ],
+            [
+              77.8689927,
+              15.0025703
+            ],
+            [
+              77.8690666,
+              15.0025555
+            ],
+            [
+              77.8691036,
+              15.0027292
+            ],
+            [
+              77.8690296,
+              15.0027441
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "Structure_ID": 44,
+        "Plinth_Area_GIS_Sqm": 94.13,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 47,
+        "Owner_Name": "SOMAGOUNI",
+        "Father_Husband_Name": "SOMAGOUNI VENKATASWAMY",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 94.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691379,
+              15.002547
+            ],
+            [
+              77.8690716,
+              15.0025613
+            ],
+            [
+              77.8690958,
+              15.002667
+            ],
+            [
+              77.8691248,
+              15.0026611
+            ],
+            [
+              77.8691262,
+              15.0026687
+            ],
+            [
+              77.8691687,
+              15.0026588
+            ],
+            [
+              77.8691596,
+              15.0026218
+            ],
+            [
+              77.8691566,
+              15.002622
+            ],
+            [
+              77.8691379,
+              15.002547
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "Structure_ID": 45,
+        "Plinth_Area_GIS_Sqm": 16.73,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 101,
+        "Owner_Name": null,
+        "Father_Husband_Name": null,
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869519,
+              15.0022314
+            ],
+            [
+              77.8695661,
+              15.0022194
+            ],
+            [
+              77.8695736,
+              15.0022473
+            ],
+            [
+              77.8695265,
+              15.0022593
+            ],
+            [
+              77.869519,
+              15.0022314
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "Structure_ID": 46,
+        "Plinth_Area_GIS_Sqm": 27.02,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 49,
+        "Owner_Name": "DUDEKULA",
+        "Father_Husband_Name": "LATE SWAMY RAJA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 27.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692041,
+              15.0026133
+            ],
+            [
+              77.8692705,
+              15.0025963
+            ],
+            [
+              77.8692791,
+              15.0026283
+            ],
+            [
+              77.8692127,
+              15.0026452
+            ],
+            [
+              77.8692041,
+              15.0026133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "Structure_ID": 47,
+        "Plinth_Area_GIS_Sqm": 83.55,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 92,
+        "Owner_Name": "DAMPETLA",
+        "Father_Husband_Name": "D YALLAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 83.65
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693731,
+              15.0024655
+            ],
+            [
+              77.8693943,
+              15.0025537
+            ],
+            [
+              77.8693189,
+              15.0025708
+            ],
+            [
+              77.8692977,
+              15.0024827
+            ],
+            [
+              77.8693731,
+              15.0024655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "Structure_ID": 48,
+        "Plinth_Area_GIS_Sqm": 24.37,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 93,
+        "Owner_Name": "KORNEPALLI ",
+        "Father_Husband_Name": "K SANJEEVARAYUDU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 24.37
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693763,
+              15.0023672
+            ],
+            [
+              77.8693894,
+              15.0023983
+            ],
+            [
+              77.8693331,
+              15.0024207
+            ],
+            [
+              77.86932,
+              15.0023896
+            ],
+            [
+              77.8693763,
+              15.0023672
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "Structure_ID": 49,
+        "Plinth_Area_GIS_Sqm": 31.0,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 50,
+        "Owner_Name": "DUDEKULA",
+        "Father_Husband_Name": "DUDEKULA KULLAYAPPA",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 30.99
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692365,
+              15.0025244
+            ],
+            [
+              77.8692466,
+              15.0025664
+            ],
+            [
+              77.8691879,
+              15.0025798
+            ],
+            [
+              77.8691778,
+              15.0025378
+            ],
+            [
+              77.8692365,
+              15.0025244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "Structure_ID": 50,
+        "Plinth_Area_GIS_Sqm": 17.75,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 51,
+        "Owner_Name": "DUDEKULA",
+        "Father_Husband_Name": "LATE SWAMY RAJA",
+        "Property_Type": "vacant land",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 17.75
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692232,
+              15.0024807
+            ],
+            [
+              77.8692336,
+              15.0025202
+            ],
+            [
+              77.8691983,
+              15.0025291
+            ],
+            [
+              77.8691878,
+              15.0024896
+            ],
+            [
+              77.8692232,
+              15.0024807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "Structure_ID": 51,
+        "Plinth_Area_GIS_Sqm": 9.68,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 53,
+        "Owner_Name": null,
+        "Father_Husband_Name": "SIVALAYAM",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 9.69
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691884,
+              15.002462
+            ],
+            [
+              77.8691808,
+              15.0024336
+            ],
+            [
+              77.8692076,
+              15.0024269
+            ],
+            [
+              77.8692152,
+              15.0024553
+            ],
+            [
+              77.8691884,
+              15.002462
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "Structure_ID": 52,
+        "Plinth_Area_GIS_Sqm": 37.77,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 96,
+        "Owner_Name": null,
+        "Father_Husband_Name": "ANJANEYASWAMY TEMPLE",
+        "Property_Type": "RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 37.78
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8691658,
+              15.0023126
+            ],
+            [
+              77.8691573,
+              15.0023176
+            ],
+            [
+              77.8691799,
+              15.0023536
+            ],
+            [
+              77.8692236,
+              15.0023277
+            ],
+            [
+              77.869201,
+              15.0022917
+            ],
+            [
+              77.8691957,
+              15.0022949
+            ],
+            [
+              77.8691802,
+              15.0022702
+            ],
+            [
+              77.8691503,
+              15.002288
+            ],
+            [
+              77.8691658,
+              15.0023126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "Structure_ID": 53,
+        "Plinth_Area_GIS_Sqm": 38.15,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 95,
+        "Owner_Name": null,
+        "Father_Husband_Name": "OLD MPP SCHOOL",
+        "Property_Type": "RCC",
+        "Usage": "GOVT",
+        "Registered_Plinth_Area": 38.18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8690813,
+              15.0021886
+            ],
+            [
+              77.8691348,
+              15.0021569
+            ],
+            [
+              77.8691622,
+              15.0022005
+            ],
+            [
+              77.8691087,
+              15.0022322
+            ],
+            [
+              77.8690813,
+              15.0021886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "Structure_ID": 54,
+        "Plinth_Area_GIS_Sqm": 13.44,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 58,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T NAGASEKHAR",
+        "Property_Type": "NON RCC",
+        "Usage": "GOVT",
+        "Registered_Plinth_Area": 26.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8692318,
+              15.003134
+            ],
+            [
+              77.8692634,
+              15.0031272
+            ],
+            [
+              77.8692709,
+              15.0031605
+            ],
+            [
+              77.8692382,
+              15.0031678
+            ],
+            [
+              77.8692318,
+              15.003134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "Structure_ID": 55,
+        "Plinth_Area_GIS_Sqm": 12.65,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 58,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "T NAGASEKHAR",
+        "Property_Type": "NON RCC",
+        "Usage": "GOVT",
+        "Registered_Plinth_Area": 26.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.869234,
+              15.0031335
+            ],
+            [
+              77.8692634,
+              15.0031272
+            ],
+            [
+              77.8692709,
+              15.0031605
+            ],
+            [
+              77.8692397,
+              15.0031674
+            ],
+            [
+              77.869234,
+              15.0031335
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "Structure_ID": 56,
+        "Plinth_Area_GIS_Sqm": 88.78,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 31,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI NARASIMHULU",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 47.43
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8693245,
+              15.0031758
+            ],
+            [
+              77.8693331,
+              15.0032108
+            ],
+            [
+              77.869389,
+              15.0031986
+            ],
+            [
+              77.8693884,
+              15.0031958
+            ],
+            [
+              77.8693684,
+              15.0031031
+            ],
+            [
+              77.8693098,
+              15.0031166
+            ],
+            [
+              77.8692819,
+              15.0031225
+            ],
+            [
+              77.8692961,
+              15.0031811
+            ],
+            [
+              77.8693245,
+              15.0031758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "Structure_ID": 57,
+        "Plinth_Area_GIS_Sqm": 48.18,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 29,
+        "Owner_Name": "NAGURU",
+        "Father_Husband_Name": "NAGURU SIVAREDDY",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 68.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8695128,
+              15.0032978
+            ],
+            [
+              77.8694973,
+              15.0032146
+            ],
+            [
+              77.8695285,
+              15.003208
+            ],
+            [
+              77.869524,
+              15.0031845
+            ],
+            [
+              77.869463,
+              15.0031957
+            ],
+            [
+              77.8694838,
+              15.0033031
+            ],
+            [
+              77.8695128,
+              15.0032978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "Structure_ID": 58,
+        "Plinth_Area_GIS_Sqm": 31.91,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 74,
+        "Owner_Name": "RENATI",
+        "Father_Husband_Name": "RENATI PAPAYYA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 31.92
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8695246,
+              15.0028608
+            ],
+            [
+              77.8694709,
+              15.0028755
+            ],
+            [
+              77.8694569,
+              15.002831
+            ],
+            [
+              77.869512,
+              15.0028145
+            ],
+            [
+              77.8695246,
+              15.0028608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "Structure_ID": 59,
+        "Plinth_Area_GIS_Sqm": 38.2,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 80,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI PEDDA NAGANNA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 38.22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.86963,
+              15.0027726
+            ],
+            [
+              77.8696725,
+              15.0027583
+            ],
+            [
+              77.8696929,
+              15.0028296
+            ],
+            [
+              77.8696513,
+              15.002841
+            ],
+            [
+              77.86963,
+              15.0027726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "Structure_ID": 60,
+        "Plinth_Area_GIS_Sqm": 37.47,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 81,
+        "Owner_Name": "TALARI",
+        "Father_Husband_Name": "TALARI LAKSHMINARAYANA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 37.49
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8696725,
+              15.0029139
+            ],
+            [
+              77.869652,
+              15.002844
+            ],
+            [
+              77.8696937,
+              15.0028331
+            ],
+            [
+              77.8697148,
+              15.0029012
+            ],
+            [
+              77.8696725,
+              15.0029139
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "Structure_ID": 61,
+        "Plinth_Area_GIS_Sqm": 7.16,
+        "Village": "N Thimmapuram",
+        "Parent_Parcel_No": 84,
+        "Owner_Name": "MASULA",
+        "Father_Husband_Name": "MASULA YALLAPPA",
+        "Property_Type": "NON RCC",
+        "Usage": "RESIDENTIAL AREA  ",
+        "Registered_Plinth_Area": 42.88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.8697659,
+              15.0028396
+            ],
+            [
+              77.8697684,
+              15.0028479
+            ],
+            [
+              77.8697725,
+              15.0028623
+            ],
+            [
+              77.869797,
+              15.0028557
+            ],
+            [
+              77.8697906,
+              15.002833
+            ],
+            [
+              77.8697659,
+              15.0028396
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
