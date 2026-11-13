@@ -80,7 +80,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 967.54,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -182,7 +190,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1291.18,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -396,7 +412,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 641.21,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -542,7 +566,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1602.66,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -676,7 +708,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 663.79,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -814,7 +854,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 616.94,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -924,7 +972,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 958.34,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1034,7 +1090,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1721.54,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1236,7 +1300,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 733.7,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1346,7 +1418,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 392.42,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1456,7 +1536,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 250.78,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1562,7 +1650,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 525.33,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1692,7 +1788,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 242.16,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1798,7 +1902,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 69.15,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -1916,7 +2028,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 124.06,
-        "Area_Difference_Pct": 0.01
+        "Area_Difference_Pct": 0.01,
+        "PMAY_Sanctioned": true,
+        "PMAY_Awaas_ID": "AP117626370",
+        "PMAY_Beneficiary_ID": "232010NPI000176598",
+        "PMAY_Scheme": "PMAY-G 2021-22",
+        "Estimated_Plinth_SqFt": 406.1,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 81220,
+        "Annual_Property_Tax_INR": 122.8
       },
       "geometry": {
         "type": "Polygon",
@@ -2022,7 +2142,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 49.84,
-        "Area_Difference_Pct": 0.23
+        "Area_Difference_Pct": 0.23,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 220.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 44000,
+        "Annual_Property_Tax_INR": 66.53
       },
       "geometry": {
         "type": "Polygon",
@@ -2132,7 +2260,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 52.74,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 156.8,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 31360,
+        "Annual_Property_Tax_INR": 47.42
       },
       "geometry": {
         "type": "Polygon",
@@ -2242,7 +2378,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 125.95,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 735.9,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 147180,
+        "Annual_Property_Tax_INR": 222.54
       },
       "geometry": {
         "type": "Polygon",
@@ -2360,7 +2504,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 136.68,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -2474,7 +2626,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 79.93,
-        "Area_Difference_Pct": 0.0
+        "Area_Difference_Pct": 0.0,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -2592,7 +2752,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 738.18,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -2698,7 +2866,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1155.43,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -2812,7 +2988,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 198.31,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -2926,7 +3110,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 130.93,
-        "Area_Difference_Pct": 0.1
+        "Area_Difference_Pct": 0.1,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -3116,7 +3308,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 581.81,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -3346,7 +3546,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 437.14,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -3568,7 +3776,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 456.9,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 167.5,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -3686,7 +3902,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 204.23,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -3788,7 +4012,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 142.02,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 741.8,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 148360,
+        "Annual_Property_Tax_INR": 224.32
       },
       "geometry": {
         "type": "Polygon",
@@ -3918,7 +4150,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 80.59,
-        "Area_Difference_Pct": 0.1
+        "Area_Difference_Pct": 0.1,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 519.7,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 103940,
+        "Annual_Property_Tax_INR": 157.16
       },
       "geometry": {
         "type": "Polygon",
@@ -4036,7 +4276,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 85.11,
-        "Area_Difference_Pct": 0.12
+        "Area_Difference_Pct": 0.12,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 510.5,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 102100,
+        "Annual_Property_Tax_INR": 154.38
       },
       "geometry": {
         "type": "Polygon",
@@ -4154,7 +4402,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 112.34,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 566.9,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 113380,
+        "Annual_Property_Tax_INR": 171.43
       },
       "geometry": {
         "type": "Polygon",
@@ -4272,7 +4528,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 117.38,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": true,
+        "PMAY_Awaas_ID": "AP210468362",
+        "PMAY_Beneficiary_ID": "Pending",
+        "PMAY_Scheme": "PMAY-G",
+        "Estimated_Plinth_SqFt": 956.8,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 191360,
+        "Annual_Property_Tax_INR": 289.34
       },
       "geometry": {
         "type": "Polygon",
@@ -4394,7 +4658,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 98.2,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -4500,7 +4772,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 638.17,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -4774,7 +5054,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 107.23,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 583.7,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 116740,
+        "Annual_Property_Tax_INR": 176.51
       },
       "geometry": {
         "type": "Polygon",
@@ -4892,7 +5180,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 308.95,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 290.6,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -5034,7 +5330,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 81.73,
-        "Area_Difference_Pct": 0.12
+        "Area_Difference_Pct": 0.12,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -5160,7 +5464,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 183.87,
-        "Area_Difference_Pct": 0.0
+        "Area_Difference_Pct": 0.0,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 776.8,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 341792,
+        "Annual_Property_Tax_INR": 516.79
       },
       "geometry": {
         "type": "Polygon",
@@ -5302,7 +5614,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 108.02,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -5412,7 +5732,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 255.4,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 951.7,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 190340,
+        "Annual_Property_Tax_INR": 287.79
       },
       "geometry": {
         "type": "Polygon",
@@ -5522,7 +5850,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 97.64,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 610.1,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 122020,
+        "Annual_Property_Tax_INR": 184.49
       },
       "geometry": {
         "type": "Polygon",
@@ -5624,7 +5960,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 315.54,
-        "Area_Difference_Pct": 0.12
+        "Area_Difference_Pct": 0.12,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -5814,7 +6158,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 98.36,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 575.8,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 115160,
+        "Annual_Property_Tax_INR": 174.12
       },
       "geometry": {
         "type": "Polygon",
@@ -5916,7 +6268,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 100.59,
-        "Area_Difference_Pct": 0.13
+        "Area_Difference_Pct": 0.13,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 663.4,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 132680,
+        "Annual_Property_Tax_INR": 200.61
       },
       "geometry": {
         "type": "Polygon",
@@ -6026,7 +6386,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 203.1,
-        "Area_Difference_Pct": 0.01
+        "Area_Difference_Pct": 0.01,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 1719.9,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 343980,
+        "Annual_Property_Tax_INR": 520.1
       },
       "geometry": {
         "type": "Polygon",
@@ -6144,7 +6512,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 185.32,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 1014.2,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 446248,
+        "Annual_Property_Tax_INR": 674.73
       },
       "geometry": {
         "type": "Polygon",
@@ -6254,7 +6630,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 65.96,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -6364,7 +6748,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 100.09,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 291.2,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 58240,
+        "Annual_Property_Tax_INR": 88.06
       },
       "geometry": {
         "type": "Polygon",
@@ -6466,7 +6858,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 56.82,
-        "Area_Difference_Pct": 0.13
+        "Area_Difference_Pct": 0.13,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 333.6,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -6572,7 +6972,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 59.98,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 191.1,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -6674,7 +7082,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 139.34,
-        "Area_Difference_Pct": 0.1
+        "Area_Difference_Pct": 0.1,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -6824,7 +7240,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 64.13,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 104.3,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 45892,
+        "Annual_Property_Tax_INR": 69.39
       },
       "geometry": {
         "type": "Polygon",
@@ -6938,7 +7362,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 120.8,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -7064,7 +7496,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1116.15,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -7182,7 +7622,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 340.2,
-        "Area_Difference_Pct": 0.11
+        "Area_Difference_Pct": 0.11,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -7320,7 +7768,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 181.26,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 993.9,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 198780,
+        "Annual_Property_Tax_INR": 300.56
       },
       "geometry": {
         "type": "Polygon",
@@ -7426,7 +7882,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 50.67,
-        "Area_Difference_Pct": 0.12
+        "Area_Difference_Pct": 0.12,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 280.6,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 56120,
+        "Annual_Property_Tax_INR": 84.85
       },
       "geometry": {
         "type": "Polygon",
@@ -7532,7 +7996,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 166.97,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 351.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 154440,
+        "Annual_Property_Tax_INR": 233.51
       },
       "geometry": {
         "type": "Polygon",
@@ -7646,7 +8118,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 81.19,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 331.5,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 66300,
+        "Annual_Property_Tax_INR": 100.25
       },
       "geometry": {
         "type": "Polygon",
@@ -7792,7 +8272,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 234.64,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -7918,7 +8406,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 67.44,
-        "Area_Difference_Pct": 0.11
+        "Area_Difference_Pct": 0.11,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 340.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 68000,
+        "Annual_Property_Tax_INR": 102.82
       },
       "geometry": {
         "type": "Polygon",
@@ -8020,7 +8516,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 55.8,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 536.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 107200,
+        "Annual_Property_Tax_INR": 162.09
       },
       "geometry": {
         "type": "Polygon",
@@ -8134,7 +8638,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 91.52,
-        "Area_Difference_Pct": 0.03
+        "Area_Difference_Pct": 0.03,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 655.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 131000,
+        "Annual_Property_Tax_INR": 198.07
       },
       "geometry": {
         "type": "Polygon",
@@ -8260,7 +8772,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 31.34,
-        "Area_Difference_Pct": 0.0
+        "Area_Difference_Pct": 0.0,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -8362,7 +8882,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 46.56,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 205.2,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 41040,
+        "Annual_Property_Tax_INR": 62.05
       },
       "geometry": {
         "type": "Polygon",
@@ -8472,7 +9000,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 32.76,
-        "Area_Difference_Pct": 0.21
+        "Area_Difference_Pct": 0.21,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 207.6,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 41520,
+        "Annual_Property_Tax_INR": 62.78
       },
       "geometry": {
         "type": "Polygon",
@@ -8578,7 +9114,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 113.34,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 709.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 141800,
+        "Annual_Property_Tax_INR": 214.4
       },
       "geometry": {
         "type": "Polygon",
@@ -8708,7 +9252,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 627.86,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -8838,7 +9390,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 2280.94,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9012,7 +9572,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 893.29,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9114,7 +9682,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 61.26,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9216,7 +9792,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 116.14,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 269.3,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9338,7 +9922,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 56.51,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 343.6,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 68720,
+        "Annual_Property_Tax_INR": 103.9
       },
       "geometry": {
         "type": "Polygon",
@@ -9444,7 +10036,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 317.01,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 2481.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 496200,
+        "Annual_Property_Tax_INR": 750.25
       },
       "geometry": {
         "type": "Polygon",
@@ -9606,7 +10206,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 124.38,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 982.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 432080,
+        "Annual_Property_Tax_INR": 653.3
       },
       "geometry": {
         "type": "Polygon",
@@ -9716,7 +10324,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 9.54,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9818,7 +10434,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 55.49,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -9932,7 +10556,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 34.14,
-        "Area_Difference_Pct": 0.11
+        "Area_Difference_Pct": 0.11,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10038,7 +10670,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 46.92,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 411.4,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 82280,
+        "Annual_Property_Tax_INR": 124.41
       },
       "geometry": {
         "type": "Polygon",
@@ -10156,7 +10796,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 43.9,
-        "Area_Difference_Pct": 0.13
+        "Area_Difference_Pct": 0.13,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 403.5,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 80700,
+        "Annual_Property_Tax_INR": 122.02
       },
       "geometry": {
         "type": "Polygon",
@@ -10258,7 +10906,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 65.52,
-        "Area_Difference_Pct": 0.01
+        "Area_Difference_Pct": 0.01,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10384,7 +11040,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 30.15,
-        "Area_Difference_Pct": 0.13
+        "Area_Difference_Pct": 0.13,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10486,7 +11150,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 155.64,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 461.6,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 92320,
+        "Annual_Property_Tax_INR": 139.59
       },
       "geometry": {
         "type": "Polygon",
@@ -10624,7 +11296,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 64.56,
-        "Area_Difference_Pct": 0.11
+        "Area_Difference_Pct": 0.11,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 292.9,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 58580,
+        "Annual_Property_Tax_INR": 88.57
       },
       "geometry": {
         "type": "Polygon",
@@ -10742,7 +11422,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 70.93,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": true,
+        "PMAY_Awaas_ID": "AP116146294",
+        "PMAY_Beneficiary_ID": "232010NPI000282353",
+        "PMAY_Scheme": "PMAY-G 2021-22",
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -10856,7 +11544,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 57.29,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 250.3,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 50060,
+        "Annual_Property_Tax_INR": 75.69
       },
       "geometry": {
         "type": "Polygon",
@@ -10962,7 +11658,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 313.79,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -11064,7 +11768,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 325.07,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -11170,7 +11882,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 371.69,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -11352,7 +12072,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 68.29,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -11458,7 +12186,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 236.46,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 900.4,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 180080,
+        "Annual_Property_Tax_INR": 272.28
       },
       "geometry": {
         "type": "Polygon",
@@ -11584,7 +12320,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 75.16,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 262.3,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 52460,
+        "Annual_Property_Tax_INR": 79.32
       },
       "geometry": {
         "type": "Polygon",
@@ -11698,7 +12442,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 114.19,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -11816,7 +12568,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 176.78,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 411.0,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 180840,
+        "Annual_Property_Tax_INR": 273.43
       },
       "geometry": {
         "type": "Polygon",
@@ -11922,7 +12682,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 94.38,
-        "Area_Difference_Pct": 0.02
+        "Area_Difference_Pct": 0.02,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 406.7,
+        "Valuation_Rate_INR_SqFt": 440,
+        "Assessed_Capital_Value_INR": 178948,
+        "Annual_Property_Tax_INR": 270.57
       },
       "geometry": {
         "type": "Polygon",
@@ -12024,7 +12792,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 18.61,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12126,7 +12902,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 91.01,
-        "Area_Difference_Pct": 0.09
+        "Area_Difference_Pct": 0.09,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12228,7 +13012,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 596.93,
-        "Area_Difference_Pct": 0.07
+        "Area_Difference_Pct": 0.07,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12342,7 +13134,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 143.05,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12448,7 +13248,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 53.76,
-        "Area_Difference_Pct": 0.06
+        "Area_Difference_Pct": 0.06,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 200,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12550,7 +13358,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1384.23,
-        "Area_Difference_Pct": 0.04
+        "Area_Difference_Pct": 0.04,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12684,7 +13500,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1226.06,
-        "Area_Difference_Pct": 0.08
+        "Area_Difference_Pct": 0.08,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -12790,7 +13614,15 @@
         "MortageBank Name(Iif any)": null,
         "remarks": null,
         "GIS_Calculated_Area_Sqm": 1037.12,
-        "Area_Difference_Pct": 0.05
+        "Area_Difference_Pct": 0.05,
+        "PMAY_Sanctioned": false,
+        "PMAY_Awaas_ID": null,
+        "PMAY_Beneficiary_ID": null,
+        "PMAY_Scheme": null,
+        "Estimated_Plinth_SqFt": 0.0,
+        "Valuation_Rate_INR_SqFt": 0,
+        "Assessed_Capital_Value_INR": 0,
+        "Annual_Property_Tax_INR": 0.0
       },
       "geometry": {
         "type": "Polygon",
