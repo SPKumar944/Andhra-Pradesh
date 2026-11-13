@@ -3,156 +3,209 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andhra Pradesh Smart Land & Infrastructure Governance Dashboard</title>
+  <title>AGT Intelligence | Andhra Pradesh Land & Cadastral Intelligence Layer</title>
+  
+  <!-- Google Fonts: Figtree, Inter & JetBrains Mono (Matching Bengaluru Footfall Intelligence) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <style>
+    body {
+      font-family: 'Figtree', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #F7F9FC;
+      color: #0E131E;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
     .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #F1F5F9; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+    
     .svg-container { cursor: grab; }
     .svg-container:active { cursor: grabbing; }
     .parcel-poly { transition: all 0.15s ease-out; }
-    .parcel-poly:hover { stroke: #ffffff; stroke-width: 2px; filter: drop-shadow(0 0 4px rgba(255,255,255,0.8)); cursor: pointer; }
-    .parcel-selected { stroke: #f59e0b !important; stroke-width: 3px !important; filter: drop-shadow(0 0 6px rgba(245,158,11,1)); }
+    .parcel-poly:hover { 
+      stroke: #0040B7 !important; 
+      stroke-width: 2.5px !important; 
+      filter: drop-shadow(0 4px 8px rgba(0,64,183,0.35)); 
+      cursor: pointer; 
+    }
+    .parcel-selected { 
+      stroke: #0040B7 !important; 
+      stroke-width: 3.5px !important; 
+      fill-opacity: 0.85 !important;
+      filter: drop-shadow(0 6px 14px rgba(0,64,183,0.45)); 
+    }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 antialiased font-sans min-h-screen flex flex-col custom-scrollbar">
+<body class="bg-[#F7F9FC] text-[#0E131E] antialiased min-h-screen flex flex-col custom-scrollbar">
 
-  <!-- Header -->
-  <header class="bg-slate-900/90 border-b border-slate-800 backdrop-blur sticky top-0 z-50 px-6 py-3.5 flex flex-wrap items-center justify-between gap-4">
+  <!-- Header (Matching AGT Intelligence Design System) -->
+  <header class="bg-white/95 border-b border-slate-200 backdrop-blur sticky top-0 z-50 px-6 py-3.5 flex flex-wrap items-center justify-between gap-4 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
     <div class="flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-amber-500/20 text-white font-bold text-lg">
-        AP
+      <!-- Brand Icon Badge -->
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#0040B7] to-[#06B6D4] flex items-center justify-center shadow-md shadow-blue-500/15 text-white font-extrabold text-lg tracking-wider">
+        AGT
       </div>
       <div>
         <div class="flex items-center gap-2">
-          <h1 class="text-lg font-bold text-white tracking-tight">Smart Land & Infrastructure Governance Dashboard</h1>
-          <span class="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Task AGT-93</span>
+          <span class="text-xs font-black tracking-widest text-[#0040B7] uppercase">AGT Intelligence</span>
+          <span class="text-slate-300">•</span>
+          <h1 class="text-base font-bold text-[#0E131E] tracking-tight">Andhra Pradesh Cadastral Intelligence Layer</h1>
+          <span class="px-2 py-0.5 text-[11px] font-bold rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">Task AGT-93</span>
         </div>
-        <p class="text-xs text-slate-400">N Thimmapuram Village • Vemulapadu GP • Yadiki Mandal • Anantapur District • EPSG:32643 / WGS 84</p>
+        <p class="text-xs text-slate-500 font-medium">N Thimmapuram Village • Vemulapadu GP • Yadiki Mandal • Anantapur District • EPSG:32643 / WGS 84</p>
       </div>
     </div>
 
     <!-- Navigation Tabs -->
-    <nav class="flex items-center gap-1 bg-slate-800/80 p-1 rounded-xl border border-slate-700/60 text-xs font-medium">
-      <button onclick="switchTab('map-view')" id="tab-btn-map" class="px-3.5 py-1.5 rounded-lg bg-amber-500 text-slate-950 font-semibold shadow-sm transition">
+    <nav class="flex items-center gap-1.5 bg-[#EEF2F6] p-1 rounded-xl border border-slate-200/80 text-xs font-semibold">
+      <button onclick="switchTab('map-view')" id="tab-btn-map" class="px-3.5 py-1.5 rounded-lg bg-[#0040B7] text-white shadow-sm transition">
         🗺️ Cadastral Map
       </button>
-      <button onclick="switchTab('table-view')" id="tab-btn-table" class="px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white transition">
+      <button onclick="switchTab('table-view')" id="tab-btn-table" class="px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">
         📊 Property Register (104)
       </button>
-      <button onclick="switchTab('prologue-view')" id="tab-btn-prologue" class="px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white transition">
+      <button onclick="switchTab('prologue-view')" id="tab-btn-prologue" class="px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">
         📂 File Prologue & Inventory
       </button>
-      <button onclick="switchTab('analytics-view')" id="tab-btn-analytics" class="px-3.5 py-1.5 rounded-lg text-slate-300 hover:text-white transition">
+      <button onclick="switchTab('analytics-view')" id="tab-btn-analytics" class="px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">
         🏛️ Governance Insights
       </button>
     </nav>
   </header>
 
-  <!-- KPI Cards Bar -->
-  <section class="bg-slate-900/40 border-b border-slate-800/80 px-6 py-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 text-xs">
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">Total Land Parcels</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-white" id="kpi-total-parcels">104</span>
-        <span class="text-slate-500 text-[11px]">(8.19 Acres)</span>
+  <!-- KPI Cards Bar (Clean White Cards with Crisp Borders) -->
+  <section class="px-6 py-3.5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 text-xs">
+    
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Total Land Parcels</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-[#0E131E]" id="kpi-total-parcels">104</span>
+        <span class="text-slate-500 font-medium text-[11px]">8.19 Acres</span>
       </div>
+      <span class="text-[10px] text-slate-400 mt-1">100% Surveyed Cadastre</span>
     </div>
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">Built-Up Structures</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-emerald-400">61</span>
-        <span class="text-slate-500 text-[11px]">(2,516 m² plinth)</span>
+
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600">Building Footprints</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-emerald-600">61</span>
+        <span class="text-slate-500 font-medium text-[11px]">Structures</span>
       </div>
+      <span class="text-[10px] text-emerald-600/80 font-medium mt-1">Green Polygons on Map</span>
     </div>
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">Non-RCC Houses</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-amber-400">35</span>
-        <span class="text-slate-500 text-[11px]">(34 Private)</span>
+
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-amber-600">Non-RCC Houses</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-amber-600">35</span>
+        <span class="text-slate-500 font-medium text-[11px]">(34 Private)</span>
       </div>
+      <span class="text-[10px] text-amber-600/80 font-medium mt-1">Priority Housing Screening</span>
     </div>
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">RCC Pucca Buildings</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-blue-400">10</span>
-        <span class="text-slate-500 text-[11px]">(9.6% of records)</span>
+
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-[#0040B7]">Pucca RCC Buildings</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-[#0040B7]">10</span>
+        <span class="text-slate-500 font-medium text-[11px]">Records</span>
       </div>
+      <span class="text-[10px] text-blue-600/80 font-medium mt-1">9.6% of Village Holdings</span>
     </div>
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">Female Land Records</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-fuchsia-400">12</span>
-        <span class="text-slate-500 text-[11px]">(1,028 m² title)</span>
+
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-fuchsia-600">Female Land Records</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-fuchsia-600">12</span>
+        <span class="text-slate-500 font-medium text-[11px]">(24% Private)</span>
       </div>
+      <span class="text-[10px] text-fuchsia-600/80 font-medium mt-1">1,028 m² Inherited Titles</span>
     </div>
-    <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-2.5 flex flex-col">
-      <span class="text-slate-400">Vacant Gov Land</span>
-      <div class="flex items-baseline gap-1.5 mt-0.5">
-        <span class="text-lg font-bold text-cyan-400">2.08 ac</span>
-        <span class="text-slate-500 text-[11px]">(6 plots / ~42 sites)</span>
+
+    <div class="bg-white border border-slate-200/90 rounded-2xl p-3.5 shadow-sm hover:shadow-md transition flex flex-col">
+      <span class="text-[11px] font-bold uppercase tracking-wider text-cyan-600">Vacant Gov Land</span>
+      <div class="flex items-baseline gap-1.5 mt-1">
+        <span class="text-2xl font-extrabold text-cyan-600">2.08 ac</span>
+        <span class="text-slate-500 font-medium text-[11px]">Shortlisted</span>
       </div>
+      <span class="text-[10px] text-cyan-600/80 font-medium mt-1">~42 Site Allotments (200m²)</span>
     </div>
+
   </section>
 
   <!-- Main Viewports -->
-  <main class="flex-1 flex flex-col p-4 md:p-6 overflow-hidden relative">
+  <main class="flex-1 flex flex-col px-6 pb-6 overflow-hidden relative">
 
     <!-- 1. MAP VIEW -->
     <div id="view-map" class="flex-1 flex flex-col lg:flex-row gap-4 h-full">
+      
       <!-- Left: Interactive Canvas Map -->
-      <div class="flex-1 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col overflow-hidden shadow-2xl relative">
+      <div class="flex-1 bg-white border border-slate-200/90 rounded-2xl flex flex-col overflow-hidden shadow-sm relative">
+        
         <!-- Map Controls Header -->
-        <div class="p-3 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs z-10">
+        <div class="p-3.5 bg-white border-b border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs z-10">
+          
           <!-- Filter chips -->
           <div class="flex items-center gap-1.5 flex-wrap">
-            <span class="text-slate-400 mr-1 font-medium">Filter:</span>
-            <button onclick="filterParcels('all')" class="filter-btn active px-2.5 py-1 rounded-md bg-slate-700 text-white font-medium">All (104)</button>
-            <button onclick="filterParcels('residential')" class="filter-btn px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300">Residential (52)</button>
-            <button onclick="filterParcels('non-rcc')" class="filter-btn px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-amber-300">Non-RCC (35)</button>
-            <button onclick="filterParcels('rcc')" class="filter-btn px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-blue-300">RCC (10)</button>
-            <button onclick="filterParcels('vacant')" class="filter-btn px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-cyan-300">Vacant Land (57)</button>
-            <button onclick="filterParcels('female')" class="filter-btn px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-fuchsia-300">Female (12)</button>
+            <span class="text-slate-400 mr-1 font-semibold uppercase text-[10px] tracking-wider">Filter Parcels:</span>
+            <button onclick="filterParcels('all')" class="filter-btn active px-3 py-1 rounded-lg bg-[#0040B7] text-white font-semibold transition shadow-sm">All (104)</button>
+            <button onclick="filterParcels('residential')" class="filter-btn px-3 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium transition">Residential (52)</button>
+            <button onclick="filterParcels('non-rcc')" class="filter-btn px-3 py-1 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-800 font-medium transition border border-amber-200/60">Non-RCC (35)</button>
+            <button onclick="filterParcels('rcc')" class="filter-btn px-3 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#0040B7] font-medium transition border border-blue-200/60">RCC (10)</button>
+            <button onclick="filterParcels('vacant')" class="filter-btn px-3 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium transition border border-slate-200">Vacant Land (57)</button>
+            <button onclick="filterParcels('female')" class="filter-btn px-3 py-1 rounded-lg bg-fuchsia-50 hover:bg-fuchsia-100 text-fuchsia-800 font-medium transition border border-fuchsia-200/60">Female (12)</button>
           </div>
 
           <!-- Layer Toggles -->
-          <div class="flex items-center gap-2 text-slate-300">
-            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
-              <input type="checkbox" id="layer-parcels" checked onchange="toggleLayer('parcels')" class="rounded border-slate-700 bg-slate-800 text-amber-500 focus:ring-0">
+          <div class="flex items-center gap-3 text-slate-700 font-medium">
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-slate-900">
+              <input type="checkbox" id="layer-parcels" checked onchange="toggleLayer('parcels')" class="rounded border-slate-300 text-[#0040B7] focus:ring-0">
               <span>Parcels</span>
             </label>
-            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
-              <input type="checkbox" id="layer-builtup" checked onchange="toggleLayer('builtup')" class="rounded border-slate-700 bg-slate-800 text-emerald-500 focus:ring-0">
-              <span>Buildings</span>
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-slate-900">
+              <input type="checkbox" id="layer-builtup" checked onchange="toggleLayer('builtup')" class="rounded border-slate-300 text-emerald-600 focus:ring-0">
+              <span>Buildings (Green)</span>
             </label>
-            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
-              <input type="checkbox" id="layer-roads" checked onchange="toggleLayer('roads')" class="rounded border-slate-700 bg-slate-800 text-cyan-500 focus:ring-0">
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-slate-900">
+              <input type="checkbox" id="layer-roads" checked onchange="toggleLayer('roads')" class="rounded border-slate-300 text-slate-600 focus:ring-0">
               <span>Roads</span>
             </label>
-            <div class="w-px h-4 bg-slate-700 mx-1"></div>
+            <div class="w-px h-4 bg-slate-200 mx-1"></div>
             <!-- Zoom controls -->
-            <button onclick="zoomMap(1.2)" class="w-7 h-7 rounded bg-slate-800 hover:bg-slate-700 text-white font-bold flex items-center justify-center border border-slate-700">+</button>
-            <button onclick="zoomMap(0.8)" class="w-7 h-7 rounded bg-slate-800 hover:bg-slate-700 text-white font-bold flex items-center justify-center border border-slate-700">-</button>
-            <button onclick="resetMap()" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-[11px] border border-slate-700">Reset</button>
+            <button onclick="zoomMap(1.2)" class="w-7 h-7 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold flex items-center justify-center border border-slate-200 transition">+</button>
+            <button onclick="zoomMap(0.8)" class="w-7 h-7 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold flex items-center justify-center border border-slate-200 transition">-</button>
+            <button onclick="resetMap()" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-[11px] border border-slate-200 transition">Reset</button>
           </div>
         </div>
 
-        <!-- SVG Map Container -->
-        <div id="map-viewport" class="flex-1 w-full h-[520px] lg:h-full relative overflow-hidden bg-slate-950 svg-container select-none">
+        <!-- SVG Map Container (Light Cartographic Canvas) -->
+        <div id="map-viewport" class="flex-1 w-full h-[540px] lg:h-full relative overflow-hidden bg-[#F8FAFC] svg-container select-none">
           <svg id="cad-svg" class="w-full h-full" viewBox="0 0 1000 1200" preserveAspectRatio="xMidYMid meet">
             <g id="transform-group">
-              <!-- Grid Background Lines -->
-              <g id="grid-layer" opacity="0.1" stroke="#475569" stroke-width="0.5">
-                <!-- Grid will be generated -->
+              <!-- Survey Grid -->
+              <g id="grid-layer" opacity="0.3" stroke="#CBD5E1" stroke-width="0.75" stroke-dasharray="4,4">
+                <line x1="0" y1="200" x2="1000" y2="200" />
+                <line x1="0" y1="400" x2="1000" y2="400" />
+                <line x1="0" y1="600" x2="1000" y2="600" />
+                <line x1="0" y1="800" x2="1000" y2="800" />
+                <line x1="0" y1="1000" x2="1000" y2="1000" />
+                <line x1="200" y1="0" x2="200" y2="1200" />
+                <line x1="400" y1="0" x2="400" y2="1200" />
+                <line x1="600" y1="0" x2="600" y2="1200" />
+                <line x1="800" y1="0" x2="800" y2="1200" />
               </g>
               <!-- Roads Layer -->
-              <g id="roads-layer" stroke="#64748b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8">
+              <g id="roads-layer" stroke="#94A3B8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75">
               </g>
               <!-- Parcels Layer -->
               <g id="parcels-layer">
               </g>
-              <!-- Buildings Layer -->
+              <!-- Buildings Layer (Green Polygons) -->
               <g id="buildings-layer">
               </g>
               <!-- Labels Layer -->
@@ -162,51 +215,98 @@
           </svg>
 
           <!-- Floating Map Tooltip -->
-          <div id="map-tooltip" class="absolute pointer-events-none hidden bg-slate-900/95 text-slate-100 border border-slate-700 rounded-lg p-2.5 text-xs shadow-xl backdrop-blur z-30 min-w-[200px]">
+          <div id="map-tooltip" class="absolute pointer-events-none hidden bg-white text-[#0E131E] border border-slate-200 rounded-xl p-3 text-xs shadow-xl backdrop-blur z-30 min-w-[220px]">
           </div>
 
-          <!-- Map Legend -->
-          <div class="absolute bottom-4 left-4 bg-slate-900/90 border border-slate-800 rounded-xl p-3 text-xs shadow-lg backdrop-blur space-y-1.5 z-20">
-            <div class="font-semibold text-slate-300 pb-1 border-b border-slate-800">Map Legend</div>
-            <div class="flex items-center gap-2"><span class="w-3.5 h-3.5 rounded bg-blue-500 border border-blue-300"></span><span class="text-slate-300">RCC Pucca House (10)</span></div>
-            <div class="flex items-center gap-2"><span class="w-3.5 h-3.5 rounded bg-amber-500 border border-amber-300"></span><span class="text-slate-300">Non-RCC Structure (35)</span></div>
-            <div class="flex items-center gap-2"><span class="w-3.5 h-3.5 rounded bg-slate-700 border border-slate-500"></span><span class="text-slate-300">Vacant Land / Govt (57)</span></div>
-            <div class="flex items-center gap-2"><span class="w-3.5 h-3.5 rounded bg-emerald-500/80 border border-emerald-300"></span><span class="text-slate-300">Building Footprint (61)</span></div>
-            <div class="flex items-center gap-2"><span class="w-3.5 h-1.5 rounded bg-slate-400"></span><span class="text-slate-300">Village Road / Path (11)</span></div>
+          <!-- Explanatory Legend Card -->
+          <div class="absolute bottom-4 left-4 bg-white/95 border border-slate-200 rounded-2xl p-3.5 text-xs shadow-md backdrop-blur space-y-2 z-20 max-w-xs">
+            <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
+              <span class="font-bold text-slate-800 tracking-tight">Cadastral Layers</span>
+              <span class="text-[10px] text-slate-400 font-mono">EPSG:32643</span>
+            </div>
+            
+            <div class="space-y-1.5">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="w-3.5 h-3.5 rounded bg-blue-100 border-2 border-[#0040B7]"></span>
+                  <span class="text-slate-700 font-medium">Pucca RCC House</span>
+                </div>
+                <span class="text-slate-400 font-bold font-mono">10</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="w-3.5 h-3.5 rounded bg-amber-100 border-2 border-amber-600"></span>
+                  <span class="text-slate-700 font-medium">Non-RCC Structure</span>
+                </div>
+                <span class="text-slate-400 font-bold font-mono">35</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="w-3.5 h-3.5 rounded bg-slate-100 border-2 border-slate-400"></span>
+                  <span class="text-slate-700 font-medium">Vacant Land / Gov</span>
+                </div>
+                <span class="text-slate-400 font-bold font-mono">57</span>
+              </div>
+
+              <!-- Green Polygons Explanation Highlight -->
+              <div class="flex items-center justify-between pt-1 border-t border-slate-100">
+                <div class="flex items-center gap-2">
+                  <span class="w-3.5 h-3.5 rounded bg-emerald-500 border border-emerald-300"></span>
+                  <span class="text-emerald-800 font-bold">Building Footprint</span>
+                </div>
+                <span class="text-emerald-700 font-bold font-mono">61</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="w-3.5 h-1.5 rounded bg-slate-400"></span>
+                  <span class="text-slate-600 font-medium">Village Street / Path</span>
+                </div>
+                <span class="text-slate-400 font-bold font-mono">11</span>
+              </div>
+            </div>
+
+            <div class="pt-1 text-[11px] text-slate-500 bg-slate-50 p-2 rounded-lg border border-slate-100 leading-snug">
+              💡 <strong>Note on Green Polygons:</strong> The green shapes are the <strong>actual physical building/house footprints</strong> (plinth coverage) sitting inside the larger surveyed land parcels.
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Right: Cadastral Inspector Sidebar -->
-      <div id="parcel-inspector" class="w-full lg:w-96 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col overflow-hidden shadow-xl">
-        <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex items-center justify-between">
+      <div id="parcel-inspector" class="w-full lg:w-96 bg-white border border-slate-200/90 rounded-2xl flex flex-col overflow-hidden shadow-sm">
+        <div class="p-4 bg-white border-b border-slate-100 flex items-center justify-between">
           <div class="flex items-center gap-2">
-            <span class="text-amber-400 font-bold">📋 Property Inspector</span>
-            <span id="inspector-badge" class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-300 border border-slate-700">Parcel #--</span>
+            <span class="text-[#0040B7] font-bold text-sm">📋 Property Inspector</span>
+            <span id="inspector-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-50 text-[#0040B7] border border-blue-200">Parcel #--</span>
           </div>
-          <span class="text-xs text-slate-500">Click parcel to load</span>
+          <span class="text-[11px] text-slate-400 font-medium">Select on map</span>
         </div>
 
         <div id="inspector-body" class="p-4 overflow-y-auto flex-1 space-y-4 custom-scrollbar text-xs">
-          <div class="text-center py-12 text-slate-500">
+          <div class="text-center py-16 text-slate-400">
             <div class="text-3xl mb-2">👈</div>
-            Select any land parcel on the map or register table to inspect its 45 official revenue attributes.
+            <p class="font-medium">Click any land parcel on the map to load its 45 official revenue attributes.</p>
           </div>
         </div>
       </div>
+
     </div>
 
     <!-- 2. TABLE VIEW -->
-    <div id="view-table" class="hidden flex-1 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col overflow-hidden shadow-xl">
+    <div id="view-table" class="hidden flex-1 bg-white border border-slate-200/90 rounded-2xl flex flex-col overflow-hidden shadow-sm">
+      
       <!-- Search & Controls Bar -->
-      <div class="p-4 border-b border-slate-800 flex flex-wrap items-center justify-between gap-4">
+      <div class="p-4 border-b border-slate-100 flex flex-wrap items-center justify-between gap-4">
         <div class="flex items-center gap-3 flex-1 min-w-[280px]">
           <input type="text" id="table-search" oninput="searchTable(this.value)" placeholder="Search by PPN, Owner Name, Father Name, Survey No..." 
-                 class="w-full max-w-md bg-slate-950 border border-slate-800 rounded-xl px-4 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500">
-          <span id="table-count" class="text-xs text-slate-400 whitespace-nowrap">Showing 104 records</span>
+                 class="w-full max-w-md bg-[#F8FAFC] border border-slate-200 rounded-xl px-4 py-2 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0040B7] focus:ring-1 focus:ring-[#0040B7]">
+          <span id="table-count" class="text-xs text-slate-500 font-semibold whitespace-nowrap">Showing 104 records</span>
         </div>
         <div class="flex items-center gap-2">
-          <button onclick="exportCSV()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-semibold shadow transition flex items-center gap-1.5">
+          <button onclick="exportCSV()" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-semibold shadow-sm transition flex items-center gap-1.5">
             📥 Export CSV
           </button>
         </div>
@@ -215,22 +315,22 @@
       <!-- Table Container -->
       <div class="flex-1 overflow-auto custom-scrollbar">
         <table class="w-full text-left border-collapse text-xs whitespace-nowrap">
-          <thead class="bg-slate-950/80 sticky top-0 text-slate-400 border-b border-slate-800 uppercase tracking-wider text-[11px]">
+          <thead class="bg-[#F8FAFC] sticky top-0 text-slate-500 border-b border-slate-200 uppercase tracking-wider text-[11px]">
             <tr>
-              <th class="py-3 px-4 font-semibold">PPN / SI.NO</th>
-              <th class="py-3 px-4 font-semibold">Owner Name</th>
-              <th class="py-3 px-4 font-semibold">Father / Husband</th>
-              <th class="py-3 px-4 font-semibold">Gender</th>
-              <th class="py-3 px-4 font-semibold">Structure Type</th>
-              <th class="py-3 px-4 font-semibold">Usage</th>
-              <th class="py-3 px-4 font-semibold">Extent (Sqm)</th>
-              <th class="py-3 px-4 font-semibold">Plinth Area (Sqm)</th>
-              <th class="py-3 px-4 font-semibold">Survey No</th>
-              <th class="py-3 px-4 font-semibold">Aadhaar</th>
-              <th class="py-3 px-4 font-semibold">Actions</th>
+              <th class="py-3 px-4 font-bold">PPN / SI.NO</th>
+              <th class="py-3 px-4 font-bold">Owner Name</th>
+              <th class="py-3 px-4 font-bold">Father / Husband</th>
+              <th class="py-3 px-4 font-bold">Gender</th>
+              <th class="py-3 px-4 font-bold">Structure Type</th>
+              <th class="py-3 px-4 font-bold">Usage</th>
+              <th class="py-3 px-4 font-bold">Extent (Sqm)</th>
+              <th class="py-3 px-4 font-bold">Plinth Area (Sqm)</th>
+              <th class="py-3 px-4 font-bold">Survey No</th>
+              <th class="py-3 px-4 font-bold">Aadhaar</th>
+              <th class="py-3 px-4 font-bold text-center">Action</th>
             </tr>
           </thead>
-          <tbody id="table-body" class="divide-y divide-slate-800/60 font-mono text-slate-300">
+          <tbody id="table-body" class="divide-y divide-slate-100 text-slate-700">
             <!-- Table rows generated by JS -->
           </tbody>
         </table>
@@ -239,14 +339,15 @@
 
     <!-- 3. FILE PROLOGUE & INVENTORY VIEW -->
     <div id="view-prologue" class="hidden flex-1 overflow-y-auto space-y-6 custom-scrollbar pr-1">
+      
       <!-- Prologue Overview Card -->
-      <div class="bg-gradient-to-r from-slate-900 to-indigo-950/40 border border-slate-800 rounded-2xl p-6 shadow-xl">
+      <div class="bg-gradient-to-r from-blue-50/80 via-white to-indigo-50/50 border border-blue-200/60 rounded-2xl p-6 shadow-sm">
         <div class="flex items-center justify-between mb-2">
-          <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20">DOCUMENT PROLOGUE & AUDIT INVENTORY</span>
-          <span class="text-xs text-slate-400">AGT-93 • Andhra Pradesh Project</span>
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-[#0040B7]/10 text-[#0040B7] border border-[#0040B7]/20 uppercase tracking-wider">DOCUMENT PROLOGUE & AUDIT INVENTORY</span>
+          <span class="text-xs text-slate-500 font-mono">AGT-93 • Andhra Pradesh Project</span>
         </div>
-        <h2 class="text-xl font-bold text-white tracking-tight">Comprehensive Catalog of All Input, GIS & Governance Deliverables</h2>
-        <p class="text-xs text-slate-300 mt-2 max-w-4xl leading-relaxed">
+        <h2 class="text-xl font-bold text-slate-900 tracking-tight">Comprehensive Catalog of All Input, GIS & Governance Deliverables</h2>
+        <p class="text-xs text-slate-600 mt-2 max-w-4xl leading-relaxed">
           This governance package synthesizes drone surveys, revenue registers, cadastre maps, and line department records for N Thimmapuram Village (Vemulapadu GP, Yadiki Mandal, Anantapur). All source files have undergone rigorous cross-verification, isolating authentic village cadastre from misfiled urban datasets and establishing verified ground truth.
         </p>
       </div>
@@ -255,104 +356,104 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
         <!-- File 1: 5 TMP.pdf -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-500/10 text-blue-400 border border-blue-500/20">GeoPDF • QGIS 3.44</span>
-              <h3 class="text-sm font-bold text-white mt-1">5 TMP.pdf</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-blue-50 text-[#0040B7] border border-blue-200">GeoPDF • QGIS 3.44</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">5 TMP.pdf</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">10.7 MB</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">10.7 MB</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
-            <strong>Thematic Cadastral Map:</strong> Authentic OGC/Adobe GeoPDF exported from QGIS with embedded coordinate reference system <code class="text-amber-400">EPSG:32643 (UTM 43N)</code>. Contains high-resolution aerial drone orthophoto composite plus 4,368 vector vertices outlining all 104 parcel boundaries and village street corridors.
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            <strong>Thematic Cadastral Map:</strong> Authentic OGC/Adobe GeoPDF exported from QGIS with embedded coordinate reference system <code class="text-[#0040B7] font-mono bg-blue-50 px-1 py-0.5 rounded">EPSG:32643 (UTM 43N)</code>. Contains high-resolution aerial drone orthophoto composite plus 4,368 vector vertices outlining all 104 parcel boundaries, 61 building footprints, and village street corridors.
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-emerald-400">Directly Vectorized & Converted to GeoJSON</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-emerald-600">Directly Vectorized & Converted to GeoJSON</strong></span>
           </div>
         </div>
 
         <!-- File 2: THIMMAPURAM PPMS.pdf -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">FMB Survey Records</span>
-              <h3 class="text-sm font-bold text-white mt-1">THIMMAPURAM PPMS.pdf</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">FMB Survey Records</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">THIMMAPURAM PPMS.pdf</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">17.7 MB</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">17.7 MB</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
             <strong>Panchayat Property Management System Slips:</strong> 104 individual cadastral survey pages. Each page provides surveyor dimension chains (meters), North/East/South/West boundary dimensions, plot area in square yards and meters, and red-hatched building footprint measurements.
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-emerald-400">100% 1-to-1 Match with Cadastral Parcels</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-emerald-600">100% 1-to-1 Match with Cadastral Parcels</strong></span>
           </div>
         </div>
 
         <!-- File 3: NEW 45 column N Thimmapuram.xlsx -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20">Revenue Register</span>
-              <h3 class="text-sm font-bold text-white mt-1">NEW 45 column N Thimmapuram (3)1.xlsx</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Revenue Register</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">NEW 45 column N Thimmapuram (3)1.xlsx</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">64 KB</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">64 KB</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
             <strong>Official 45-Column Cadastral Register:</strong> Complete census of all 104 properties containing owner names, father/husband names, gender, Aadhaar, contact details, land use, structure classifications, survey numbers, and boundary neighbors.
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-emerald-400">Fully Ingested & Populated in GIS Layers</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-emerald-600">Fully Ingested & Populated in GIS Layers</strong></span>
           </div>
         </div>
 
         <!-- File 4: N Thimmapuram Village Profile.pdf -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Administrative Baseline</span>
-              <h3 class="text-sm font-bold text-white mt-1">N Thimmapuram Village Profile.pdf</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-cyan-50 text-cyan-700 border border-cyan-200">Administrative Baseline</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">N Thimmapuram Village Profile.pdf</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">1.2 MB</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">1.2 MB</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
             <strong>Grama Panchayat Baseline Survey:</strong> Records official demographics: 145 population, 45 households, 45 functional tap connections (100% village water coverage), 2,150 m roads, 850 m covered drains, and 1 non-operational MPP Primary School.
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-emerald-400">Reconciled in Governance Analysis</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-emerald-600">Reconciled in Governance Analysis</strong></span>
           </div>
         </div>
 
         <!-- File 5: 6TH SW DRAINS & 6TH SW ROADS -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-500/10 text-purple-400 border border-purple-500/20">CAD Drawings • Urban</span>
-              <h3 class="text-sm font-bold text-white mt-1">6TH SW DRAINS.pdf & 6th SW ROADS FINAL1.pdf</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-purple-50 text-purple-700 border border-purple-200">CAD Drawings • Urban</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">6TH SW DRAINS.pdf & 6th SW ROADS FINAL1.pdf</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">3.2 MB</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">3.2 MB</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
             <strong>Urban Engineering CAD Plots:</strong> Layout of stormwater drains and roads for 6th Ward Secretariat (Revenue Colony, Anantapuram). Color-coded drain sections (green/magenta) and road widths (450m x 6m, 80ft, 33ft).
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-amber-400">Georeferenced to Anantapuram Ward 6</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-amber-600">Georeferenced to Anantapuram Ward 6</strong></span>
           </div>
         </div>
 
         <!-- File 6: Master Deliverables -->
-        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 hover:border-slate-300 shadow-sm transition">
           <div class="flex items-start justify-between">
             <div>
-              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500/10 text-rose-400 border border-rose-500/20">Master Deliverables</span>
-              <h3 class="text-sm font-bold text-white mt-1">Executive Presentation & Data-Check Report</h3>
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-bold bg-rose-50 text-rose-700 border border-rose-200">Master Deliverables</span>
+              <h3 class="text-sm font-bold text-slate-900 mt-1">Executive Presentation & Data-Check Report</h3>
             </div>
-            <span class="text-xs font-semibold text-slate-400">PPTX & PDF</span>
+            <span class="text-xs font-semibold text-slate-500 font-mono">PPTX & PDF</span>
           </div>
-          <p class="text-xs text-slate-300 mt-2">
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
             <strong>Approved Decision-Making Package:</strong> 15-slide executive presentation and formal data check report. Integrates verified land regularization protocols, housing screening, and line-department action items with complete SHA-256 ledger tracking.
           </p>
-          <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
-            <span>Status: <strong class="text-emerald-400">Promoted to Production (Master/)</strong></span>
+          <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Status: <strong class="text-emerald-600">Promoted to Production (Master/)</strong></span>
           </div>
         </div>
 
@@ -364,53 +465,53 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         <!-- Housing & PMAY Analytics -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 space-y-4 shadow-sm">
           <div class="flex items-center justify-between">
-            <h3 class="font-bold text-white text-sm">🏡 Housing & PMAY Eligibility</h3>
-            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-400">Screening</span>
+            <h3 class="font-bold text-slate-900 text-sm">🏡 Housing & PMAY Eligibility</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Screening</span>
           </div>
-          <p class="text-xs text-slate-400">
+          <p class="text-xs text-slate-500 leading-relaxed">
             The register lists 35 Non-RCC records (34 private). While previously assumed PMAY beneficiaries, statutory eligibility requires Grama Sabha validation.
           </p>
           <div class="space-y-2 text-xs">
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Non-RCC Houses</span><span class="font-bold text-amber-400">35</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Small Houses (&lt;25 sq.m plinth)</span><span class="font-bold text-white">6</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Pucca RCC Houses</span><span class="font-bold text-blue-400">10</span></div>
-            <div class="flex justify-between py-1"><span class="text-slate-400">Vacant Gov Land for Housing</span><span class="font-bold text-emerald-400">2.08 Acres (~42 Plots)</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Non-RCC Houses</span><span class="font-bold text-amber-600 font-mono">35</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Small Houses (&lt;25 sq.m plinth)</span><span class="font-bold text-slate-900 font-mono">6</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Pucca RCC Houses</span><span class="font-bold text-[#0040B7] font-mono">10</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-500">Vacant Gov Land for Housing</span><span class="font-bold text-emerald-600 font-mono">2.08 Acres (~42 Plots)</span></div>
           </div>
         </div>
 
         <!-- Gender & Land Tenure -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 space-y-4 shadow-sm">
           <div class="flex items-center justify-between">
-            <h3 class="font-bold text-white text-sm">👩 Gender & Land Rights</h3>
-            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-fuchsia-500/10 text-fuchsia-400">Land Reform</span>
+            <h3 class="font-bold text-slate-900 text-sm">👩 Gender & Land Rights</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-fuchsia-50 text-fuchsia-700 border border-fuchsia-200">Land Reform</span>
           </div>
-          <p class="text-xs text-slate-400">
+          <p class="text-xs text-slate-500 leading-relaxed">
             12 private records (24% of 50 private owners) are held by women. All acquired via inheritance, with zero RCC pucca structures.
           </p>
           <div class="space-y-2 text-xs">
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Female Records</span><span class="font-bold text-fuchsia-400">12 (1,028 m²)</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Female-Owned RCC Buildings</span><span class="font-bold text-rose-400">0</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Acquisition by Purchase</span><span class="font-bold text-slate-400">0 (100% Inherited)</span></div>
-            <div class="flex justify-between py-1"><span class="text-slate-400">Recommended Policy</span><span class="font-bold text-emerald-400">Mandatory Joint Titles</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Female Records</span><span class="font-bold text-fuchsia-600 font-mono">12 (1,028 m²)</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Female-Owned RCC Buildings</span><span class="font-bold text-rose-600 font-mono">0</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Acquisition by Purchase</span><span class="font-bold text-slate-400 font-mono">0 (100% Inherited)</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-500">Recommended Policy</span><span class="font-bold text-emerald-600 font-medium">Mandatory Joint Titles</span></div>
           </div>
         </div>
 
         <!-- Revenue & Tax Screening -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
+        <div class="bg-white border border-slate-200/90 rounded-2xl p-5 space-y-4 shadow-sm">
           <div class="flex items-center justify-between">
-            <h3 class="font-bold text-white text-sm">💰 Revenue & Property Tax</h3>
-            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/10 text-emerald-400">Panchayat Raj</span>
+            <h3 class="font-bold text-slate-900 text-sm">💰 Revenue & Property Tax</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Panchayat Raj</span>
           </div>
-          <p class="text-xs text-slate-400">
+          <p class="text-xs text-slate-500 leading-relaxed">
             Property tax liabilities must be reconciled with Grama Panchayat resolution. All 104 plots are currently marked "unapproved" in raw survey sheets.
           </p>
           <div class="space-y-2 text-xs">
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Private Records with Plinth Area</span><span class="font-bold text-white">45</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Total Built-Up Area</span><span class="font-bold text-white">2,516 m²</span></div>
-            <div class="flex justify-between py-1 border-b border-slate-800"><span class="text-slate-400">Govt Land Tagged</span><span class="font-bold text-amber-400">104 / 104 Records</span></div>
-            <div class="flex justify-between py-1"><span class="text-slate-400">Action Required</span><span class="font-bold text-cyan-400">Title Regularization Drive</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Private Records with Plinth Area</span><span class="font-bold text-slate-900 font-mono">45</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Total Built-Up Area</span><span class="font-bold text-slate-900 font-mono">2,516 m²</span></div>
+            <div class="flex justify-between py-1 border-b border-slate-100"><span class="text-slate-500">Govt Land Tagged</span><span class="font-bold text-amber-600 font-mono">104 / 104 Records</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-500">Action Required</span><span class="font-bold text-cyan-600 font-medium">Title Regularization Drive</span></div>
           </div>
         </div>
 
@@ -471,26 +572,26 @@
         poly.setAttribute('id', 'parcel-' + feat.id);
         poly.setAttribute('class', 'parcel-poly');
 
-        // Color coding based on property type
+        // Color coding based on property type (Clean Light Cartographic Palette)
         const pType = (feat.properties['Nature of Property (RCC/Non RCC /vacant land)'] || '').toUpperCase();
-        let fill = '#334155'; // default slate-700
-        let stroke = '#475569';
+        let fill = '#F1F5F9'; // default slate-100
+        let stroke = '#94A3B8';
 
         if (pType.includes('NON RCC')) {
-          fill = '#d97706'; // amber-600
-          stroke = '#f59e0b';
+          fill = '#FEF3C7'; // warm amber-100
+          stroke = '#D97706'; // amber-600
         } else if (pType.includes('RCC')) {
-          fill = '#2563eb'; // blue-600
-          stroke = '#60a5fa';
+          fill = '#DBEAFE'; // soft blue-100
+          stroke = '#0040B7'; // electric royal blue
         } else if (pType.includes('VACANT')) {
-          fill = '#1e293b'; // slate-800
-          stroke = '#334155';
+          fill = '#F8FAFC'; // light clean slate
+          stroke = '#CBD5E1';
         }
 
         poly.setAttribute('fill', fill);
-        poly.setAttribute('fill-opacity', '0.75');
+        poly.setAttribute('fill-opacity', '0.65');
         poly.setAttribute('stroke', stroke);
-        poly.setAttribute('stroke-width', '1');
+        poly.setAttribute('stroke-width', '1.2');
 
         // Mouse Events
         poly.addEventListener('mouseenter', (e) => showTooltip(e, feat));
@@ -506,25 +607,26 @@
 
         const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         text.setAttribute('x', cx);
-        text.setAttribute('y', cy + 3);
+        text.setAttribute('y', cy + 3.5);
         text.setAttribute('text-anchor', 'middle');
-        text.setAttribute('fill', '#ffffff');
-        text.setAttribute('font-size', '10px');
-        text.setAttribute('font-weight', 'bold');
+        text.setAttribute('fill', '#334155');
+        text.setAttribute('font-family', 'JetBrains Mono');
+        text.setAttribute('font-size', '9.5px');
+        text.setAttribute('font-weight', '600');
         text.textContent = feat.id;
         labelsLayer.appendChild(text);
       });
 
-      // 3. Draw Buildings
+      // 3. Draw Buildings (The Green Polygons!)
       builtupData.features.forEach(feat => {
         const pts = feat.geometry.coordinates[0].map(pt => project(pt[0], pt[1]));
         const ptsStr = pts.map(p => p[0] + ',' + p[1]).join(' ');
         const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
         poly.setAttribute('points', ptsStr);
-        poly.setAttribute('fill', '#10b981'); // emerald-500
-        poly.setAttribute('fill-opacity', '0.85');
-        poly.setAttribute('stroke', '#a7f3d0');
-        poly.setAttribute('stroke-width', '0.8');
+        poly.setAttribute('fill', '#10B981'); // Emerald 500
+        poly.setAttribute('fill-opacity', '0.75');
+        poly.setAttribute('stroke', '#059669'); // Emerald 600
+        poly.setAttribute('stroke-width', '1');
         poly.setAttribute('pointer-events', 'none');
         builtupLayer.appendChild(poly);
       });
@@ -538,13 +640,14 @@
       const tooltip = document.getElementById('map-tooltip');
       const p = feat.properties;
       tooltip.innerHTML = `
-        <div class="font-bold text-amber-400 mb-1">Parcel #${feat.id} • Chalta #${p['Chalta No.'] || feat.id}</div>
-        <div class="space-y-0.5 text-slate-300">
-          <div>Owner: <strong class="text-white">${p['Details of Ownership'] || 'Government Land / Unassigned'}</strong></div>
+        <div class="font-bold text-[#0040B7] text-sm mb-1">Parcel #${feat.id} • Chalta #${p['Chalta No.'] || feat.id}</div>
+        <div class="space-y-0.5 text-slate-600">
+          <div>Owner: <strong class="text-slate-900">${p['Details of Ownership'] || 'Government Land / Unassigned'}</strong></div>
           <div>Father: ${p['Father/Husband/Mother/Name'] || '--'}</div>
-          <div>Type: <span class="px-1.5 py-0.2 rounded text-[10px] bg-slate-800 text-amber-300 font-semibold">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span></div>
-          <div>Extent: <strong>${p['Extent of property( Sqm)'] || '--'} m²</strong></div>
-          <div>Usage: ${p['Usage of property (Residential/commercial/Mixed use/industrial/Govt/local bodies)'] || '--'}</div>
+          <div class="mt-1">
+            <span class="px-2 py-0.5 rounded text-[10px] bg-slate-100 text-slate-700 font-bold border border-slate-200">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-blue-50 text-[#0040B7] font-bold border border-blue-200">${p['Extent of property( Sqm)'] || '--'} m²</span>
+          </div>
         </div>
       `;
       tooltip.classList.remove('hidden');
@@ -579,43 +682,43 @@
 
       const body = document.getElementById('inspector-body');
       body.innerHTML = `
-        <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-1">
-          <div class="text-[11px] text-slate-400">Primary Identification</div>
-          <div class="text-sm font-bold text-white">${p['Details of Ownership'] || 'Government Land'}</div>
-          <div class="text-slate-400">${p['Father/Husband/Mother/Name'] ? 'S/o, W/o: ' + p['Father/Husband/Mother/Name'] : 'No individual legal title specified'}</div>
-          <div class="flex items-center gap-2 mt-2 pt-2 border-t border-slate-800/80">
-            <span class="px-2 py-0.5 rounded text-[10px] bg-amber-500/10 text-amber-400 border border-amber-500/20 font-semibold">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span>
-            <span class="px-2 py-0.5 rounded text-[10px] bg-blue-500/10 text-blue-400 border border-blue-500/20 font-semibold">${p['Usage of property (Residential/commercial/Mixed use/industrial/Govt/local bodies)'] || 'Govt'}</span>
-            <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">${p['Gender(MALE/FEMALE/others)'] || '--'}</span>
+        <div class="bg-gradient-to-br from-blue-50/60 to-white p-4 rounded-xl border border-blue-200/80 shadow-sm space-y-1">
+          <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Primary Ownership</div>
+          <div class="text-base font-extrabold text-slate-900">${p['Details of Ownership'] || 'Government Land'}</div>
+          <div class="text-xs text-slate-600 font-medium">${p['Father/Husband/Mother/Name'] ? 'S/o, W/o: ' + p['Father/Husband/Mother/Name'] : 'No individual legal title specified'}</div>
+          <div class="flex items-center gap-1.5 mt-2.5 pt-2 border-t border-slate-200/60 flex-wrap">
+            <span class="px-2 py-0.5 rounded text-[10px] bg-amber-50 text-amber-800 border border-amber-200 font-bold">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-blue-50 text-[#0040B7] border border-blue-200 font-bold">${p['Usage of property (Residential/commercial/Mixed use/industrial/Govt/local bodies)'] || 'Govt'}</span>
+            <span class="px-2 py-0.5 rounded text-[10px] bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold">${p['Gender(MALE/FEMALE/others)'] || '--'}</span>
           </div>
         </div>
 
-        <div class="space-y-1.5 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80">
-          <div class="font-semibold text-slate-300 pb-1 border-b border-slate-800">Measurements & Spatial Attributes</div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Extent (Register):</span><span class="font-bold text-white">${p['Extent of property( Sqm)'] || '--'} m²</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">GIS Geometry Area:</span><span class="font-bold text-emerald-400">${p['GIS_Calculated_Area_Sqm'] || '--'} m²</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Area Divergence:</span><span class="font-mono text-cyan-400">${p['Area_Difference_Pct'] !== undefined ? p['Area_Difference_Pct'] + '%' : '0.0%'}</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Built-Up Plinth Area:</span><span class="font-bold text-amber-400">${p['Extent of builtup area (plinth area Sqm.)'] || '--'} m²</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Survey No / Sub-div:</span><span class="text-white">${p['Survey No -sub division no -'] || '--'}</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">LP Number / UPPIN:</span><span class="text-white font-mono">${p['UPPIN No'] || p['LP NO.'] || '--'}</span></div>
+        <div class="space-y-2 bg-slate-50/80 p-3.5 rounded-xl border border-slate-200/80">
+          <div class="font-bold text-slate-800 pb-1.5 border-b border-slate-200 text-xs">Measurements & Area Verification</div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Extent (Register):</span><span class="font-bold text-slate-900 font-mono">${p['Extent of property( Sqm)'] || '--'} m²</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">GIS Geometry Area:</span><span class="font-bold text-[#0040B7] font-mono">${p['GIS_Calculated_Area_Sqm'] || '--'} m²</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Area Divergence:</span><span class="font-mono text-emerald-600 font-bold">${p['Area_Difference_Pct'] !== undefined ? p['Area_Difference_Pct'] + '%' : '0.0%'}</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Built-Up Plinth Area:</span><span class="font-bold text-amber-600 font-mono">${p['Extent of builtup area (plinth area Sqm.)'] || '--'} m²</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Survey No:</span><span class="text-slate-800 font-semibold font-mono">${p['Survey No -sub division no -'] || '--'}</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">LP No / UPPIN:</span><span class="text-slate-800 font-mono text-[11px]">${p['UPPIN No'] || p['LP NO.'] || '--'}</span></div>
         </div>
 
-        <div class="space-y-1.5 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80">
-          <div class="font-semibold text-slate-300 pb-1 border-b border-slate-800">Boundary Neighbor Adjacency</div>
+        <div class="space-y-2 bg-slate-50/80 p-3.5 rounded-xl border border-slate-200/80">
+          <div class="font-bold text-slate-800 pb-1.5 border-b border-slate-200 text-xs">Boundary Neighbor Adjacency</div>
           <div class="grid grid-cols-2 gap-2 text-[11px]">
-            <div class="bg-slate-900 p-1.5 rounded border border-slate-800"><span class="text-slate-400 block">North:</span> <span class="text-white font-mono">${p['NORTH'] || '--'}</span></div>
-            <div class="bg-slate-900 p-1.5 rounded border border-slate-800"><span class="text-slate-400 block">East:</span> <span class="text-white font-mono">${p['EAST'] || '--'}</span></div>
-            <div class="bg-slate-900 p-1.5 rounded border border-slate-800"><span class="text-slate-400 block">South:</span> <span class="text-white font-mono">${p['SOUTH'] || '--'}</span></div>
-            <div class="bg-slate-900 p-1.5 rounded border border-slate-800"><span class="text-slate-400 block">West:</span> <span class="text-white font-mono">${p['WEST'] || '--'}</span></div>
+            <div class="bg-white p-2 rounded-lg border border-slate-200"><span class="text-slate-400 block font-semibold text-[10px] uppercase">North:</span> <span class="text-slate-800 font-mono font-bold">${p['NORTH'] || '--'}</span></div>
+            <div class="bg-white p-2 rounded-lg border border-slate-200"><span class="text-slate-400 block font-semibold text-[10px] uppercase">East:</span> <span class="text-slate-800 font-mono font-bold">${p['EAST'] || '--'}</span></div>
+            <div class="bg-white p-2 rounded-lg border border-slate-200"><span class="text-slate-400 block font-semibold text-[10px] uppercase">South:</span> <span class="text-slate-800 font-mono font-bold">${p['SOUTH'] || '--'}</span></div>
+            <div class="bg-white p-2 rounded-lg border border-slate-200"><span class="text-slate-400 block font-semibold text-[10px] uppercase">West:</span> <span class="text-slate-800 font-mono font-bold">${p['WEST'] || '--'}</span></div>
           </div>
         </div>
 
-        <div class="space-y-1.5 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80">
-          <div class="font-semibold text-slate-300 pb-1 border-b border-slate-800">Legal & Demographics</div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Aadhaar:</span><span class="font-mono text-white">${p['Adhar num'] || '--'}</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Phone:</span><span class="font-mono text-white">${p['phone number'] || '--'}</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Classification:</span><span class="text-amber-300">${p['Classification of  Property(govt/Assigned/Inam/Endowment/Wakf/Private/Local bodies)'] || 'Govt Land'}</span></div>
-          <div class="flex justify-between py-0.5"><span class="text-slate-400">Mode of Acquisition:</span><span class="text-white">${p['Mode of Acquisition(inheritance/purchase/Gift/Assigned by govt/Govt/local bodies/others)'] || '--'}</span></div>
+        <div class="space-y-2 bg-slate-50/80 p-3.5 rounded-xl border border-slate-200/80">
+          <div class="font-bold text-slate-800 pb-1.5 border-b border-slate-200 text-xs">Legal & Identity Records</div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Aadhaar:</span><span class="font-mono text-slate-900 font-semibold">${p['Adhar num'] || '--'}</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Phone:</span><span class="font-mono text-slate-900 font-semibold">${p['phone number'] || '--'}</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Classification:</span><span class="text-amber-700 font-semibold">${p['Classification of  Property(govt/Assigned/Inam/Endowment/Wakf/Private/Local bodies)'] || 'Govt Land'}</span></div>
+          <div class="flex justify-between py-0.5"><span class="text-slate-500">Acquisition Mode:</span><span class="text-slate-800 font-semibold">${p['Mode of Acquisition(inheritance/purchase/Gift/Assigned by govt/Govt/local bodies/others)'] || '--'}</span></div>
         </div>
       `;
     }
@@ -623,8 +726,12 @@
     // Filter Parcels
     function filterParcels(type) {
       currentFilter = type;
-      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('bg-slate-700', 'text-white'));
-      event.target.classList.add('bg-slate-700', 'text-white');
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('bg-[#0040B7]', 'text-white', 'font-semibold', 'shadow-sm');
+        btn.classList.add('bg-slate-100', 'text-slate-700');
+      });
+      event.target.classList.remove('bg-slate-100', 'text-slate-700');
+      event.target.classList.add('bg-[#0040B7]', 'text-white', 'font-semibold', 'shadow-sm');
 
       parcelsData.features.forEach(feat => {
         const poly = document.getElementById('parcel-' + feat.id);
@@ -693,23 +800,23 @@
       features.forEach(feat => {
         const p = feat.properties;
         const tr = document.createElement('tr');
-        tr.className = 'hover:bg-slate-800/40 transition cursor-pointer';
+        tr.className = 'hover:bg-slate-50 transition cursor-pointer';
         tr.onclick = () => {
           switchTab('map-view');
           selectParcel(feat.id);
         };
         tr.innerHTML = `
-          <td class="py-2.5 px-4 font-bold text-amber-400">#${feat.id}</td>
-          <td class="py-2.5 px-4 text-white font-medium">${p['Details of Ownership'] || '<span class="text-slate-500">Govt Land</span>'}</td>
-          <td class="py-2.5 px-4 text-slate-400">${p['Father/Husband/Mother/Name'] || '--'}</td>
+          <td class="py-2.5 px-4 font-bold text-[#0040B7] font-mono">#${feat.id}</td>
+          <td class="py-2.5 px-4 text-slate-900 font-semibold">${p['Details of Ownership'] || '<span class="text-slate-400">Govt Land</span>'}</td>
+          <td class="py-2.5 px-4 text-slate-600">${p['Father/Husband/Mother/Name'] || '--'}</td>
           <td class="py-2.5 px-4">${p['Gender(MALE/FEMALE/others)'] || '--'}</td>
-          <td class="py-2.5 px-4"><span class="px-2 py-0.5 rounded text-[11px] font-semibold ${p['Nature of Property (RCC/Non RCC /vacant land)'] === 'RCC' ? 'bg-blue-500/20 text-blue-300' : p['Nature of Property (RCC/Non RCC /vacant land)'] === 'NON RCC' ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-800 text-slate-400'}">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span></td>
-          <td class="py-2.5 px-4 text-slate-300">${p['Usage of property (Residential/commercial/Mixed use/industrial/Govt/local bodies)'] || '--'}</td>
-          <td class="py-2.5 px-4 font-semibold text-white">${p['Extent of property( Sqm)'] || '--'}</td>
-          <td class="py-2.5 px-4 text-slate-400">${p['Extent of builtup area (plinth area Sqm.)'] || '--'}</td>
-          <td class="py-2.5 px-4 text-slate-400">${p['Survey No -sub division no -'] || '--'}</td>
-          <td class="py-2.5 px-4 text-slate-400">${p['Adhar num'] || '--'}</td>
-          <td class="py-2.5 px-4"><button class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-amber-400 text-[10px]">Inspect</button></td>
+          <td class="py-2.5 px-4"><span class="px-2 py-0.5 rounded text-[11px] font-bold ${p['Nature of Property (RCC/Non RCC /vacant land)'] === 'RCC' ? 'bg-blue-50 text-[#0040B7] border border-blue-200' : p['Nature of Property (RCC/Non RCC /vacant land)'] === 'NON RCC' ? 'bg-amber-50 text-amber-800 border border-amber-200' : 'bg-slate-100 text-slate-600'}">${p['Nature of Property (RCC/Non RCC /vacant land)'] || 'Vacant'}</span></td>
+          <td class="py-2.5 px-4 text-slate-600">${p['Usage of property (Residential/commercial/Mixed use/industrial/Govt/local bodies)'] || '--'}</td>
+          <td class="py-2.5 px-4 font-bold text-slate-900 font-mono">${p['Extent of property( Sqm)'] || '--'}</td>
+          <td class="py-2.5 px-4 text-slate-600 font-mono">${p['Extent of builtup area (plinth area Sqm.)'] || '--'}</td>
+          <td class="py-2.5 px-4 text-slate-600 font-mono">${p['Survey No -sub division no -'] || '--'}</td>
+          <td class="py-2.5 px-4 text-slate-500 font-mono text-[11px]">${p['Adhar num'] || '--'}</td>
+          <td class="py-2.5 px-4 text-center"><button class="px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#0040B7] font-semibold text-[11px] transition">Inspect</button></td>
         `;
         tbody.appendChild(tr);
       });
@@ -761,13 +868,13 @@
     function switchTab(tabId) {
       ['map', 'table', 'prologue', 'analytics'].forEach(t => {
         document.getElementById('view-' + t).classList.add('hidden');
-        document.getElementById('tab-btn-' + t).classList.remove('bg-amber-500', 'text-slate-950', 'font-semibold');
-        document.getElementById('tab-btn-' + t).classList.add('text-slate-300');
+        document.getElementById('tab-btn-' + t).classList.remove('bg-[#0040B7]', 'text-white', 'shadow-sm');
+        document.getElementById('tab-btn-' + t).classList.add('text-slate-600');
       });
       const activeId = tabId.replace('-view', '');
       document.getElementById('view-' + activeId).classList.remove('hidden');
-      document.getElementById('tab-btn-' + activeId).classList.add('bg-amber-500', 'text-slate-950', 'font-semibold');
-      document.getElementById('tab-btn-' + activeId).classList.remove('text-slate-300');
+      document.getElementById('tab-btn-' + activeId).classList.add('bg-[#0040B7]', 'text-white', 'shadow-sm');
+      document.getElementById('tab-btn-' + activeId).classList.remove('text-slate-600');
     }
 
     // Startup
